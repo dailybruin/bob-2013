@@ -267,6 +267,60 @@ aside.pull-quote .quote .quote-credit {
   font-weight: bold;
 }
 
+footer {
+  background-color:#1b1d0f;
+  color:white;
+  text-align:center;
+  padding:20px 0;
+}
+footer .footer-links {
+  list-style: none;
+  text-align:center;
+  color:rgba(255,255,255,0.8);
+}
+footer .footer-links li {
+  display:inline-block;
+}
+footer .footer-links li:after {
+  content: "|";
+}
+footer .footer-links li:last-child:after {
+  content: "";
+}
+footer .footer-links li a {
+  color:rgba(255,255,255,0.8);
+  text-transform:uppercase;
+  font-size:0.8em;
+  padding:10px;
+  padding-right:12px;
+}
+footer .footer-links li a:hover {
+  color:white;
+}
+footer #footer-nameplate {
+  margin-top: 40px;
+  display: block;
+  opacity:0.5;
+}
+footer .copyright {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, serif;
+  opacity: 0.5;
+  font-size: 0.7em;
+  margin-top: 5px;
+  line-height: 1.2;
+  font-style: italic;
+}
+footer .copyright .copyright-bridget {
+  display:block;
+}
+footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, footer .copyright a:active {
+  color:white;
+  text-decoration:underline;
+}
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
