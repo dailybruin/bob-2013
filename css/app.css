@@ -335,6 +335,9 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     padding: 0;
     top: 37px;
   }
+  footer .copyright {
+    width:80%;
+  }
 }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
