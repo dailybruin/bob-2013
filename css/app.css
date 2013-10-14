@@ -4,6 +4,7 @@ header {
   background-size:cover;
   background-repeat:no-repeat;
   position:relative;
+  min-height:400px;
 }
 
 #package-title {
@@ -84,11 +85,7 @@ header {
 @media only screen { }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
-@media only screen and (min-width: 768px) {
-  header {
-    min-height:400px;
-  }
-}
+@media only screen and (min-width: 768px) {}
 
 /* Used to alter styles for screens at least 1280px wide. */
 @media only screen and (min-width: 1280px) {}
