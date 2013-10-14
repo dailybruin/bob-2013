@@ -219,6 +219,16 @@ figure figcaption .credit {
   margin-bottom: 0.5em;
 }
 
+aside.pull-quote {
+  background-image: url('/img/gen/Lake_Malawi.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.7);
+  padding:5px 0;
+}
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
