@@ -226,11 +226,56 @@ aside.pull-quote {
   background-position: center center;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 100px rgba(0,0,0,0.7);
-  padding:5px 0;
+  margin:15px 0;
+  position:relative;
+  overflow:hidden;
+}
+aside.pull-quote .quote {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 150px;
+  font-size: 1.5em;
+  text-shadow: 0 0 1px rgba(255,255,255,0.2);
+  top: 30%;
+  position: relative;
+  text-align: center;
+}
+aside.pull-quote .quote:before {
+  content:"“";
+  display:block;
+  float:left;
+}
+aside.pull-quote .quote:after {
+  content:"”";
+  display:block;
+  float:right;
+}
+aside.pull-quote .quote:before, aside.pull-quote .quote:after {
+  font-weight:bold;
+  font-size:2em;
+  text-shadow: 0 0 1px rgba(255,255,255,0.2);
+}
+aside.pull-quote .quote .quote-credit {
+  font-size: 0.6em;
+  display: block;
+  position: relative;
+  height: 0;
+  top: 13px;
+  text-align: right;
+  margin-right: 50px;
+  font-weight: bold;
 }
 
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
+
+/* Overrides for small screens only */
+@media only screen and (max-width: 767px) {
+  aside.pull-quote {
+    background-position: center center !important;
+  }
+}
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
 @media only screen and (min-width: 768px) {
