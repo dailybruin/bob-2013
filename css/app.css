@@ -329,6 +329,12 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   aside.pull-quote {
     background-position: center center !important;
   }
+  aside.pull-quote .quote {
+    width: 100%;
+    margin: 5px 0;
+    padding: 0;
+    top: 37px;
+  }
 }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
