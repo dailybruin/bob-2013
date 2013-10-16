@@ -42,10 +42,17 @@
   
   <nav>
     <ul>
-      <li class="active"><a href="#">Part One</a></li>
+      <li class="active"><a href="#" data-dropdown="part1">Part One</a></li>
       <li><a href="#">Part Two</a></li>
       <li class="disabled"><a href="#">Part Three</a></li>
       <li class="disabled"><a href="#">Columns</a></li>
       <li class="disabled"><a href="#">Photo Essay</a></li>
     </ul>
   </nav>
+  <div class="dropdowns">
+    <ul id="part1" class="f-dropdown" data-dropdown-content>
+      <li><a href="#">Story 1</a></li>
+      <li><a href="#">Story 2</a></li>
+    </ul>
+  </div>
+  
