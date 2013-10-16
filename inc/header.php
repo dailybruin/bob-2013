@@ -1,3 +1,4 @@
+<?php global $cur_part, $cur_story ?>
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -6,6 +7,10 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>In the Shadows | Daily Bruin</title>
+  
+  <?php if(isset($canonical_url)): ?>
+  <link href="<?php echo $canonical_url; ?>" rel="canonical" />
+  <?php endif; ?>
 
   <link rel="shortcut icon" href="http://dailybruin.com/img/favicon.ico"/>
   
@@ -20,7 +25,6 @@
 </head>
 <body>
   
-  <?php print_r($_GET); ?>
   <header>
     <a href="http://dailybruin.com" id="nameplate">
       <img src="<?php echo SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
