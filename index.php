@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,20 +10,21 @@
 
   <link rel="shortcut icon" href="http://dailybruin.com/img/favicon.ico"/>
   
-  <link type="text/plain" rel="author" href="http://domain/humans.txt" />
+  <link type="text/plain" rel="author" href="<?php echo $SITE_URL ?>humans.txt" />
   
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="<?php echo $SITE_URL ?>css/normalize.css">
+  <link rel="stylesheet" href="<?php echo $SITE_URL ?>css/foundation.css">
+  <link rel="stylesheet" href="<?php echo $SITE_URL ?>css/app.css">
 
-  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
   
+  <?php print_r($_GET); ?>
   <header>
     <a href="http://dailybruin.com" id="nameplate">
-      <img src="img/gen/nameplate.svg" alt="Daily Bruin" />
+      <img src="<?php echo $SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
     </a>
     
     <h1 id="package-title"><span id="package-title-first">In the</span> <span id="package-title-last">Shadows</span></h1>
@@ -91,7 +93,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis massa, ornare id mattis sed, feugiat et augue. In ullamcorper est nunc. Morbi volutpat porta varius. Suspendisse tincidunt non ligula sed auctor. Vivamus dictum erat in leo iaculis mattis. Ut accumsan massa sed nibh volutpat, id fringilla est viverra. Fusce vel ligula sit amet leo iaculis pulvinar a sed enim. Donec volutpat dui sit amet libero ultricies congue. Phasellus ante odio, ornare eu erat ac, cursus hendrerit mi. Nunc et nisi sed eros sollicitudin porta. Maecenas venenatis, nulla sit amet pellentesque sollicitudin, odio quam luctus urna, sed mollis tortor orci et diam. Etiam non lectus id felis feugiat aliquet sit amet in sem. Nulla facilisi. In porta tellus quis purus dapibus, at sodales neque adipiscing. Donec eget tellus sed mauris interdum hendrerit ac sed elit. Integer sit amet tellus ligula.
         </p>
         <figure>
-          <img src="img/gen/C2-small.jpg" alt="" />
+          <img src="<?php echo $SITE_URL ?>img/gen/C2-small.jpg" alt="" />
           <figcaption>
             <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
             This is the image caption. Put stuff here that has to do with the image and explains it. For instance, this image has blue, red, and green.
@@ -151,7 +153,7 @@
     </ul>
     
     <a href="http://dailybruin.com" id="footer-nameplate">
-      <img src="img/gen/nameplate.svg" alt="Daily Bruin" />
+      <img src="<?php echo $SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
     </a>
     
     <div class="copyright">
@@ -163,46 +165,46 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
   if (!window.jQuery) {
-      document.write('<script src="js/vendor/jquery.js"><\/script>');
+      document.write('<script src="<?php echo $SITE_URL ?>js/vendor/jquery.js"><\/script>');
   }
   </script>
   
-  <script src="js/foundation.min.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation.min.js"></script>
   
-  <script src="js/app.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/app.js"></script>
   <!--
   
-  <script src="js/foundation/foundation.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.js"></script>
   
-  <script src="js/foundation/foundation.alerts.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.alerts.js"></script>
   
-  <script src="js/foundation/foundation.clearing.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.clearing.js"></script>
   
-  <script src="js/foundation/foundation.cookie.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.cookie.js"></script>
   
-  <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.dropdown.js"></script>
   
-  <script src="js/foundation/foundation.forms.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.forms.js"></script>
   
-  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.joyride.js"></script>
   
-  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.magellan.js"></script>
   
-  <script src="js/foundation/foundation.orbit.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.orbit.js"></script>
   
-  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.reveal.js"></script>
   
-  <script src="js/foundation/foundation.section.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.section.js"></script>
   
-  <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.tooltips.js"></script>
   
-  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.topbar.js"></script>
   
-  <script src="js/foundation/foundation.interchange.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.interchange.js"></script>
   
-  <script src="js/foundation/foundation.placeholder.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.placeholder.js"></script>
   
-  <script src="js/foundation/foundation.abide.js"></script>
+  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.abide.js"></script>
   
   -->
   

@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Only allow access to css, img, and js directories
+RewriteRule ^css/    -   [L]
+RewriteRule ^img/    -   [L]
+RewriteRule ^js/     -   [L]
+
+
+# Add trailing slash if missing
+RewriteRule ^(([a-z0-9\-]+/)*[a-z0-9\-]+)$ $1/ [NC,R=302,L]
+
+# Pass everything else to PHP as /section/story/
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+)/$   index.php?part=$1&story=$2 [L]
+RewriteRule ^([a-z0-9\-]+)/$ index.php?part=$1 [L]
