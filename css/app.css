@@ -18,6 +18,22 @@ a:visited {
   display:block;
 }
 
+#not-found {
+  text-align:center;
+  font-family: Georgia, serif;
+}
+#not-found h2 {
+  font-family: Georgia, serif;
+  font-weight:normal;
+  font-size:3em;
+  font-style:italic;
+  display:inline-block;
+  margin:50px 0 10px 0;
+}
+#not-found p {
+  margin-bottom:50px;
+}
+
 header {
   background-image: url('../img/gen/Sky_Road.jpg');
   background-position:center top;

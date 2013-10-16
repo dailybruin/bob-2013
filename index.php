@@ -1,52 +1,24 @@
-<?php include('config.php'); ?>
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<?php include('config.php'); 
 
-<head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>In the Shadows | Daily Bruin</title>
+$stories = array(
+  "dayone" => array(
+    "storyone" => array(
+      "file" => "inc/day1.story.php"
+    )
+  ),
+  "daytwo" => array(
+    "storytwo" => array(
+      "file" => "inc/day2.story2.php"
+    )
+  )
+);
 
-  <link rel="shortcut icon" href="http://dailybruin.com/img/favicon.ico"/>
-  
-  <link type="text/plain" rel="author" href="<?php echo $SITE_URL ?>humans.txt" />
-  
-  <link rel="stylesheet" href="<?php echo $SITE_URL ?>css/normalize.css">
-  <link rel="stylesheet" href="<?php echo $SITE_URL ?>css/foundation.css">
-  <link rel="stylesheet" href="<?php echo $SITE_URL ?>css/app.css">
+if(isset($_GET['part']) && !isset($stories[$_GET['part']]))
+{
+  send_404();
+}
 
-  <script src="<?php echo $SITE_URL ?>js/vendor/custom.modernizr.js"></script>
-
-</head>
-<body>
-  
-  <?php print_r($_GET); ?>
-  <header>
-    <a href="http://dailybruin.com" id="nameplate">
-      <img src="<?php echo $SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
-    </a>
-    
-    <h1 id="package-title"><span id="package-title-first">In the</span> <span id="package-title-last">Shadows</span></h1>
-    
-    <div class="caption-rollover closed">
-      <a href="#" class="caption-button">i</a>
-      <span class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis massa, ornare id mattis sed, feugiat et augue. In ullamcorper est nunc. Morbi volutpat porta varius. Suspendisse tincidunt non ligula sed auctor. Vivamus dictum erat in leo iaculis mattis. Ut accumsan massa sed nibh volutpat, id fringilla est viverra.
-        <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-      </span>
-    </div>
-  </header>
-  
-  <nav>
-    <ul>
-      <li class="active"><a href="#">Part One</a></li>
-      <li><a href="#">Part Two</a></li>
-      <li class="disabled"><a href="#">Part Three</a></li>
-      <li class="disabled"><a href="#">Columns</a></li>
-      <li class="disabled"><a href="#">Photo Essay</a></li>
-    </ul>
-  </nav>
-
+include('inc/header.php'); ?>
   <article>
     <div class="headline">
       <h2>This is the headline about the article</h2>
@@ -142,74 +114,4 @@
   </a>
   <div class="clear"></div>
   
-  
-  <footer>
-    <ul class="footer-links">
-      <li><a href="#">Part One</a></li>
-      <li><a href="#">Part Two</a></li>
-      <li class="disabled"><a href="#">Part Three</a></li>
-      <li class="disabled"><a href="#">Columns</a></li>
-      <li class="disabled"><a href="#">Photo Essay</a></li>
-    </ul>
-    
-    <a href="http://dailybruin.com" id="footer-nameplate">
-      <img src="<?php echo $SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
-    </a>
-    
-    <div class="copyright">
-      &copy; 2013 the <a href="http://dailybruin.com">Daily Bruin</a>. Site programmed and designed by Byron Lutz, Daily Bruin senior staff.
-      <span class="copyright-bridget"><a href="http://rememberingbridget.com">The Bridget O'Brien Scholarship Foundation</a></span>
-    </div>
-  </footer>
-  
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>
-  if (!window.jQuery) {
-      document.write('<script src="<?php echo $SITE_URL ?>js/vendor/jquery.js"><\/script>');
-  }
-  </script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation.min.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/app.js"></script>
-  <!--
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.alerts.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.clearing.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.cookie.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.forms.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.joyride.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.magellan.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.orbit.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.reveal.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.section.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.topbar.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.interchange.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="<?php echo $SITE_URL ?>js/foundation/foundation.abide.js"></script>
-  
-  -->
-  
-  <script>
-    $(document).foundation();
-  </script>
-</body>
-</html>
+<?php include('inc/footer.php'); ?>
