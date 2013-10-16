@@ -321,6 +321,26 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   text-decoration:underline;
 }
 
+.edinote {
+  background-color: #ddd;
+  padding: 10px 20px;
+  margin: 18px 0;
+  font-family: "Helvetica Neue","Helvetica",Arial, sans-serif;
+  font-size: 0.8em;
+}
+.edinote h4 {
+  font-style:italic;
+  font-weight:normal;
+  font-size: 2em;
+  color: #777;
+  font-family: "Palantino Linotype", "Palatino", Georgia, serif;
+  line-height: 1em;
+}
+.edinote p {
+  margin-bottom: 0.6em;
+  color: #444;
+}
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
@@ -337,6 +357,11 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   }
   footer .copyright {
     width:80%;
+  }
+  #about-bridget {
+    margin: 20px;
+    opacity: 0.8;
+    margin-bottom: 30px;
   }
 }
 
@@ -359,6 +384,11 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     right: 0;
     font-size: 0.8em;
     margin-top: 8px;
+  }
+  .edinote .edinote-note {
+    column-count:2;
+    -webkit-column-count:2;
+    -moz-column-count:2;
   }
 }
 
