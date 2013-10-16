@@ -358,6 +358,7 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   box-sizing:border-box;
   padding:20px;
   text-align: right;
+  top:0px;
 }
 .otherstory.next {
   right:0;
@@ -420,6 +421,8 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   background-color:#d6d7d1;
 }
 
+
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
@@ -441,6 +444,22 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     margin: 20px;
     opacity: 0.8;
     margin-bottom: 30px;
+  }
+  .otherstory {
+    display:block;
+    width:100%;
+    position:static;
+    float:none;
+  }
+  .otherstory.bottom {
+    width:100%;
+  }
+  #nameplate {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0;
+    padding: 5px;
   }
 }
 
@@ -468,6 +487,9 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     column-count:2;
     -webkit-column-count:2;
     -moz-column-count:2;
+  }
+  .headline {
+    padding:0 10em;
   }
 }
 
