@@ -44,7 +44,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis massa, ornare id mattis sed, feugiat et augue. In ullamcorper est nunc. Morbi volutpat porta varius. Suspendisse tincidunt non ligula sed auctor. Vivamus dictum erat in leo iaculis mattis. Ut accumsan massa sed nibh volutpat, id fringilla est viverra. Fusce vel ligula sit amet leo iaculis pulvinar a sed enim. Donec volutpat dui sit amet libero ultricies congue. Phasellus ante odio, ornare eu erat ac, cursus hendrerit mi. Nunc et nisi sed eros sollicitudin porta. Maecenas venenatis, nulla sit amet pellentesque sollicitudin, odio quam luctus urna, sed mollis tortor orci et diam. Etiam non lectus id felis feugiat aliquet sit amet in sem. Nulla facilisi. In porta tellus quis purus dapibus, at sodales neque adipiscing. Donec eget tellus sed mauris interdum hendrerit ac sed elit. Integer sit amet tellus ligula.
       </p>
       <figure>
-        <img src="<?php echo $SITE_URL ?>img/gen/C2-small.jpg" alt="" />
+        <img src="<?php echo SITE_URL ?>img/gen/C2-small.jpg" alt="" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
           This is the image caption. Put stuff here that has to do with the image and explains it. For instance, this image has blue, red, and green.
