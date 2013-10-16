@@ -20,7 +20,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     $('.pull-quote.parallax').each(function(){
       var offset = window.scrollY - $(this).offset().top;
-      $(this).css('background-position-y', offset);
+      $(this).css('background-position', "center " + offset + "px");
     });
   });
 });
