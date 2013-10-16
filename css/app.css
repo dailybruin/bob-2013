@@ -12,6 +12,12 @@ a:visited {
   color:#631092;
 }
 
+.clear {
+  width:100%;
+  clear:both;
+  display:block;
+}
+
 header {
   background-image: url('../img/gen/Sky_Road.jpg');
   background-position:center top;
@@ -139,6 +145,7 @@ article {
   background-color:#1b1d0f;
   color:white;
   text-align:center;
+  position:relative;
 }
 .headline h2 {
   margin:0;
@@ -339,6 +346,78 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
 .edinote p {
   margin-bottom: 0.6em;
   color: #444;
+}
+
+.otherstory {
+  width: 10em;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(255,255,255,0.05);
+  display:block;
+  color:#ddd;
+  box-sizing:border-box;
+  padding:20px;
+  text-align: right;
+}
+.otherstory.next {
+  right:0;
+}
+.otherstory.prev {
+  left:0;
+}
+.otherstory:visited {
+  color:#ddd;
+}
+.otherstory:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+.otherstory .kicker {
+  display: block;
+  font-weight:bold;
+  font-size:0.8em;
+  text-transform:uppercase;
+  opacity:0.8;
+  font-family:"Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+.otherstory.next .kicker:after {
+  content:" →";
+}
+.otherstory.prev .kicker:before {
+  content:"← ";
+}
+.otherstory .shorttitle {
+  margin-top:0.8em;
+  display:block;
+  font-style:italic;
+}
+.otherstory.bottom {
+  display: block;
+  color: #333;
+  background-color: #e2e2dd;
+  width: 40%;
+  float: right;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: right;
+  position: static;
+  font-family: Georgia, serif;
+}
+.otherstory.bottom.next {
+  float:right;
+}
+.otherstory.bottom.prev {
+  float:left;
+}
+.otherstory.bottom .shorttitle {
+  font-size:1.3em;
+  margin-top:0.5em;
+}
+.otherstory.bottom:visited {
+  color:#333;
+}
+.otherstory.bottom:hover {
+  background-color:#d6d7d1;
 }
 
 /* Use this media query to add styles to any device that supports media queries */
