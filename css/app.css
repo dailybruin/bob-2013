@@ -8,6 +8,12 @@ header.chapter-one {
 header.photos {
   background-image: url('../img/photo/header.jpg');
 }
+header.chapter-two {
+  background-image: url('../img/day2/header.jpg');
+}
+header.chapter-two #package-title {
+  top: 65px;
+}
 
 a {
   color:#879C04;
