@@ -205,6 +205,15 @@
       <p>The university does, however, fund HIV/AIDS research and prevention efforts involving LGBT populations in countries such as South Africa and Peru, where homosexuality is legal.</p>
       <p>Of the countries where UCLA conducts HIV/AIDS work, Malawi is one of the harshest toward gay men and women – men face up to 14 years in prison with hard labor if convicted of homosexual acts, and women face up to five years. </p>
       <p>A current moratorium on enforcing the laws exists, but social stigma and the rare possibility of arrest still serve as barriers to medical care. </p>
+  </div>
+</div>
+<div class="row">
+  <div class="large-10 large-centered columns">
+    <img src="<?php echo SITE_URL ?>img/day1/10.21.copyedited.BOB.UCLAinMalawi.edit2.jpg" />
+  </div>
+</div>
+<div class="row">
+  <div class="large-7 large-offset-3 columns story">
       <p>Although it is nationally and internationally acknowledged that MSM are a high-risk population, nonprofits and universities in the country have to be careful of addressing the issue for fear of alienation from the government and people they work with. Organizations say they could lose the support of the government and their local infrastructure if it seems like they are pushing other countries’ ideals in opposition to Malawi’s laws. </p>
       <p>Malawi, though it has a secular government, is a mostly Christian nation in which anti-gay sentiment is high and people often refer to the Bible to reinforce their point that homosexuality is wrong.</p>
       <figure>
