@@ -635,8 +635,54 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
 }
 
 #profiles {
-  background-color:#333;
+  background-color:#222;
   color:white;
+}
+
+#profiles .subhead .columns {
+  background-color: #222;
+  color: white;
+  text-shadow: 0 0 1px black;
+  font-weight: normal;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+  text-rendering: optimizeLegibility;
+}
+#profiles .subhead hr {
+  border-color:white;
+}
+
+#profiles .headline {
+  background-color:#eee;
+  color:black;
+}
+#profiles .headline h2 {
+  color:black;
+  text-shadow:none;
+}
+
+#profiles .quote {
+  text-rendering:optimizeLegibility;
+  margin-top:10px;
+  margin-bottom:25px;
+  font-size:1em;
+  line-height:1.4;
+  text-shadow: 0 1px 1px black;
+}
+
+#profiles h3 {
+  color: white;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.6em;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  border-top: 1px solid #777;
+  padding-top: 8px;
+  text-shadow: 0 1px 1px black;
 }
 
 /* Use this media query to add styles to any device that supports media queries */
@@ -728,6 +774,20 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   }
   .headline {
     padding:0 10em;
+  }
+  #profiles #quote1 {
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: 18px;
+    line-height: 1.2;
+    text-shadow: 0 1px 1px black;
+  }
+  #profiles #quote2 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    opacity:0.8;
   }
 }
 

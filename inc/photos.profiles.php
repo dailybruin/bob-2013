@@ -1,11 +1,7 @@
 <article id="profiles">
   <div class="headline">
     <h2>This is the headline about the article</h2>
-    <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 21, 2013</span></div>
-    <a class="otherstory next" href="#">
-      <span class="kicker">Read more</span>
-      <span class="shorttitle">AIDS research in Malawi</span>
-    </a>
+    <div class="head-info"><span class="byline">By Blaine Ohigashi</span> • <span class="date">October 21, 2013</span></div>
   </div>
   
   <div class="subhead">
@@ -16,133 +12,22 @@
       </div>
     </div>
   </div>
-  
-  <div class="edinote">
-    <div class="row">
-      <div class="large-12">
-        <h4>Editor's note</h4>
-        <div class="edinote-note">
-          <p>The Daily Bruin published a three-part series on a UCLA and UC Irvine student service group that travels to Vietnam each year to carry out educational and medical missions.</p>
-          <p>The on-site reporting was made possible by the Bridget O’Brien Scholarship Foundation, now in its fourth year of funding student journalism at UCLA with global reach and local consequence.
-          <p>This year’s recipients, Sean Greene and Morgan Glier, spent 12 days in Vietnam with the student group Medical, Educational Missions and Outreach, to tell the stories of the volunteers and those they help.</p>
-          <p>They conducted many interviews in Vietnamese that were translated into English by paid professionals. In line with cultural practices, the reporters accepted meals provided by sources.</p>
-          <p>Some Vietnamese names and words had to be simplified and so appear without certain accent marks.</p>
-        </div>
+    
+  <div class="row photo-skinny">
+    <div class="large-12 columns">
+      <h3>Skinny</h3>
+    </div>
+    <div class="large-9 columns">
+      <img src="/img/photo/01.Skinny.JPG">
+    </div>
+    <div class="large-3 columns">
+      <div id="quote1" class="quote">
+        <span class="lquote">&ldquo;</span>Nobody in our family knows that I am like this.<span class="rquote">&rdquo;</span>
+      </div>
+      <div id="quote2" class="quote">
+        <span class="lquote">&ldquo;</span>I fear to tell my sisters about my sexual orientation … Because if I tell them, they will tell my dad, and I will be evicted, so that’s the only fear I have.<span class="rquote">&rdquo;</span>
       </div>
     </div>
-  </div>
-  
-  <div class="row">
-    <div class="large-3 columns">
-      <div id="about-bridget">
-        <p><strong>This project was made possible by the Bridget O'Brien Scholarship Foundation.</strong></p>
-        <p>The nonprofit organization was established in 2007 in memory of the late 26-year-old O’Brien, a photojournalist and former photographer, writer and editor at the Daily Bruin. <a href="http://rememberingbridget.com/">Find out more about the foundation or make a donation.</a></p>
-      </div><!-- end div#about-bridget -->
-    </div><!-- end div.large-3 -->
-    <div class="large-7 columns story story-drop">
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis massa, ornare id mattis sed, feugiat et augue. In ullamcorper est nunc. Morbi volutpat porta varius. Suspendisse tincidunt non ligula sed auctor. Vivamus dictum erat in leo iaculis mattis. Ut accumsan massa sed nibh volutpat, id fringilla est viverra. Fusce vel ligula sit amet leo iaculis pulvinar a sed enim. Donec volutpat dui sit amet libero ultricies congue. Phasellus ante odio, ornare eu erat ac, cursus hendrerit mi. Nunc et nisi sed eros sollicitudin porta. Maecenas venenatis, nulla sit amet pellentesque sollicitudin, odio quam luctus urna, sed mollis tortor orci et diam. Etiam non lectus id felis feugiat aliquet sit amet in sem. Nulla facilisi. In porta tellus quis purus dapibus, at sodales neque adipiscing. Donec eget tellus sed mauris interdum hendrerit ac sed elit. Integer sit amet tellus ligula.
-      </p>
-      <figure>
-        <img src="<?php echo SITE_URL ?>img/gen/C2-small.jpg" alt="" />
-        <figcaption>
-          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          This is the image caption. Put stuff here that has to do with the image and explains it. For instance, this image has blue, red, and green.
-        </figcaption>
-      </figure>
-      <p>
-      Etiam facilisis tortor non dui hendrerit fermentum. Aenean dignissim enim id pretium consectetur. Vivamus tempus odio nec tellus fringilla eleifend. In sed velit convallis massa blandit consequat at ac dolor. Ut a massa odio. Suspendisse potenti. Phasellus a leo metus. Proin ut lacus sodales, pellentesque arcu sed, varius turpis. Cras dignissim interdum odio, ultricies placerat nisi.
-      </p>
-      <p>
-      Phasellus eget molestie neque, non faucibus leo. Donec eleifend sed nisl mollis ornare. Donec porta tempor nulla. Aenean eu fringilla nulla. Curabitur felis lorem, pharetra at vestibulum sed, elementum sed magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras id semper enim. Nunc arcu justo, eleifend nec nulla condimentum, commodo commodo elit.</p>
-      <p>Vestibulum adipiscing sollicitudin nisl, at rhoncus justo egestas eget. Aliquam felis lectus, bibendum quis sagittis ut, blandit ac enim. Proin feugiat ligula sed libero hendrerit faucibus. Cras rhoncus, mi at venenatis viverra, neque justo lobortis est, vel tempor sem urna et tortor. Nunc tristique pellentesque metus, sit amet fringilla eros posuere ac.
-      </p>
-    </div>
-    <div class="large-2 columns"> </div>
-  </div><!-- end div.row -->
-  
-  <div class="graphic" id="graphic-usfunding">
-    <div class="graphic-header">
-      <h4 class="graphic-title">Countries which receive the most U.S. Government funding for HIV/AIDS</h4>
-      <span class="graphic-explainer">Homosexual acts are illegal in 10 of the 15 countries that receive the most HIV/AIDS funding from the U.S. Activists in some of the countries, including Malawi, use the funding to promote LGBT rights.</span>
-      <ul class="graphic-key">
-        <li><div class="sample" style="background-color:#1B1D18"></div>Imprisonment 14+ years</li>
-        <li><div class="sample" style="background-color:#879C04"></div>Imprisonment up to 14 years</li>
-        <li><div class="sample" style="background-color:#D7E86F"></div>Imprisonment, no length indication</li>
-        <li><div class="sample" style="background-color:#84B6C2"></div>Homosexual acts legal</li>
-        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex copules letal</li>
-      </ul>
-    </div>
-    <div class="mapcontainer"></div>
-    <div class="chart1container"></div>
-    <div class="chart2container">      
-      <select class="changeyear">
-        <option value="2012">2012</option>
-        <option value="2011">2011</option>
-        <option value="2010">2010</option>
-        <option value="2009">2009</option>
-      </select>
-      
-      <h5>HIV/AIDS funding from the U.S.</h5>
-      
-      <div class="left-label" data-country-code="ZA">South Africa</div>
-      <div class="right-data" data-country-bar="ZA"><div></div></div>
-      
-      <div class="left-label" data-country-code="KE">Kenya</div>
-      <div class="right-data" data-country-bar="KE"><div></div></div>
-      
-      <div class="left-label" data-country-code="NG">Nigeria</div>
-      <div class="right-data" data-country-bar="NG"><div></div></div>
-      
-      <div class="left-label" data-country-code="TZ">Tanzania</div>
-      <div class="right-data" data-country-bar="TZ"><div></div></div>
-      
-      <div class="left-label" data-country-code="UG">Uganda</div>
-      <div class="right-data" data-country-bar="UG"><div></div></div>
-      
-      <div class="left-label" data-country-code="ZM">Zambia</div>
-      <div class="right-data" data-country-bar="ZM"><div></div></div>
-      
-      <div class="left-label" data-country-code="MZ">Mozambique</div>
-      <div class="right-data" data-country-bar="MZ"><div></div></div>
-      
-      <div class="left-label" data-country-code="ET">Ethiopia</div>
-      <div class="right-data" data-country-bar="ET"><div></div></div>
-      
-      <div class="left-label" data-country-code="HT">Haiti</div>
-      <div class="right-data" data-country-bar="HT"><div></div></div>
-      
-      <div class="left-label" data-country-code="CI">Cote d'Ivoire</div>
-      <div class="right-data" data-country-bar="CI"><div></div></div>
-      
-      <div class="left-label" data-country-code="RW">Rwanda</div>
-      <div class="right-data" data-country-bar="RW"><div></div></div>
-      
-      <div class="left-label" data-country-code="NA">Namibia</div>
-      <div class="right-data" data-country-bar="NA"><div></div></div>
-      
-      <div class="left-label" data-country-code="VN">Vietnam</div>
-      <div class="right-data" data-country-bar="VN"><div></div></div>
-      
-      <div class="left-label" data-country-code="BW">Botswana</div>
-      <div class="right-data" data-country-bar="BW"><div></div></div>
-      
-      <div class="left-label" data-country-code="MW">Malawi</div>
-      <div class="right-data" data-country-bar="MW"><div></div></div>
-    </div>
-    <div class="clear"></div>
-  </div><!-- end div#graphic-usfunding -->
-  
-  <div class="row">
-    <div class="large-6 large-offset-3 columns story">
-      <p>
-      Donec viverra ante et dui fringilla, eu tincidunt elit malesuada. Proin iaculis porttitor arcu quis molestie. In hac habitasse platea dictumst. Phasellus tempus tempus enim, vitae ultrices tortor. Nulla condimentum pharetra arcu sit amet luctus. Nullam purus dui, dapibus ac aliquet sit amet, accumsan vitae sapien. Nunc id sollicitudin diam. Maecenas cursus consectetur metus ut ultricies. Proin imperdiet neque lorem, sit amet hendrerit lorem gravida eget. Praesent congue nec enim et feugiat. Cras sed leo ac velit blandit accumsan ut tincidunt leo.
-      </p>
-      <p>
-      Donec sollicitudin porttitor lorem, et scelerisque lacus vehicula quis. Vestibulum id nulla et purus facilisis vehicula. Maecenas in varius orci, sit amet eleifend felis. Praesent eu semper risus, id sollicitudin est. Nullam sodales odio in est pulvinar, sed pulvinar odio tristique. Praesent nec auctor libero, nec elementum leo. Donec malesuada purus at dui congue facilisis. Nullam vitae ipsum vitae metus lobortis luctus. Nullam fermentum facilisis viverra. Aliquam lobortis feugiat dolor. Aliquam eu nunc lectus. Fusce posuere fringilla nulla, feugiat venenatis justo eleifend dapibus. Nulla facilisi. Nunc tempus metus in ipsum aliquam, eu bibendum leo rhoncus. ■
-      </p></div>
-      
-    </div><!-- end div.large-6 -->
   </div><!-- end div.row -->
 </article>
 <div class="clear"></div>
