@@ -522,6 +522,7 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   background-color: rgba(255,255,255,0.8);
   position: relative;
   margin-right:20px;
+  margin-bottom:20px;
 }
 
 #graphic-usfunding .chart2container .left-label {
