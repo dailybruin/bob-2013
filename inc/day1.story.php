@@ -62,6 +62,17 @@
   </div><!-- end div.row -->
   
   <div class="graphic" id="graphic-usfunding">
+    <div class="graphic-header">
+      <h4 class="graphic-title">Countries which receive the most U.S. Government funding for HIV/AIDS</h4>
+      <span class="graphic-explainer">Homosexual acts are illegal in 10 of the 15 countries that receive the most HIV/AIDS funding from the U.S. Activists in some of the countries, including Malawi, use the funding to promote LGBT rights.</span>
+      <ul class="graphic-key">
+        <li><div class="sample" style="background-color:#1B1D18"></div>Imprisonment 14+ years</li>
+        <li><div class="sample" style="background-color:#879C04"></div>Imprisonment up to 14 years</li>
+        <li><div class="sample" style="background-color:#D7E86F"></div>Imprisonment, no length indication</li>
+        <li><div class="sample" style="background-color:#84B6C2"></div>Homosexual acts legal</li>
+        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex copules letal</li>
+      </ul>
+    </div>
     <div class="mapcontainer"></div>
   </div><!-- end div#graphic-usfunding -->
   
