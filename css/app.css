@@ -671,6 +671,28 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     margin: 0;
     padding: 5px;
   }
+  #graphic-usfunding .chart2container {
+   width:100%; 
+   margin-top: 0;
+   margin-left: 10px;
+   margin-right: auto;
+  }
+  #graphic-usfunding .chart1container {
+    width:100%;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #graphic-usfunding .graphic-header {
+    position:static;
+  }
+  #graphic-usfunding .mapcontainer {
+    clear:both;
+    height: 400px;
+  }
+  #graphic-usfunding .graphic-key li {
+    width:100%;
+  }
 }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
