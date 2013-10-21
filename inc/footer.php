@@ -24,6 +24,14 @@
   }
   </script>
   
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.3/d3.min.js"></script>
+  <script>
+  if (!window.jQuery) {
+      document.write('<script src="<?php echo SITE_URL ?>js/vendor/d3.v3.min.js"><\/script>');
+  }
+  </script>
+  
+  
   <script src="<?php echo SITE_URL ?>js/foundation.min.js"></script>
   
   <script src="<?php echo SITE_URL ?>js/app.js"></script>
