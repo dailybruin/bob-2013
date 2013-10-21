@@ -13,7 +13,7 @@ $(document).ready(function(){
     var that = this;
     var rolloverTimeout = window.setTimeout(function(){
       $(that).addClass('closed');
-    }, 500);
+    }, 200);
     $(this).data('rolloverTimeout', rolloverTimeout);
   });
   
@@ -412,6 +412,17 @@ $(document).ready(function(){
       country_el.css('fill',thiscolor).css('stroke',"#000000");
       country_el.children("path").css('fill',thiscolor).css('stroke',"#000000");
       country_el.children("g").children("path").css('fill',thiscolor).css('stroke',"#000000");      
+      
+      country_el.hover(function(){
+        $('#hover-container').text($(this).attr('country_name'));
+        $(this).attr('class','selected');
+        console.log(this);
+        showTooltip();
+      }, function(){
+        hideTooltip();
+        $(this).attr('class','');
+      });
+      
     }
   })
   
@@ -426,9 +437,11 @@ $(document).ready(function(){
       }
       $(this).hover(function(){
         $('#hover-container').text("$"+addCommas(USFUNDING_DATA[$(this).data('country-bar')]['data'][newyear]['funding']));
+        $(this).addClass('selected');
         showTooltip();
       }, function(){
         hideTooltip();
+        $(this).removeClass('selected');
       });
     });
   }

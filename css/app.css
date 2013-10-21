@@ -482,6 +482,11 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   left: -10%;
 }
 
+#graphic-usfunding .mapcontainer svg .selected, #graphic-usfunding .mapcontainer svg .selected g path, #graphic-usfunding .mapcontainer svg .selected path {
+  stroke-width:2px !important;
+  stroke:red !important;
+}
+
 #graphic-usfunding .graphic-key li {
   display: block;
   width: 20%;
@@ -538,6 +543,10 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   -moz-transition:1s width;
   -webkit-transition:1s width;
   -ie-transition:1s width;
+  border:1px solid white;
+}
+#graphic-usfunding .chart2container .right-data.selected div {
+  border-color:red;
 }
 
 #graphic-usfunding .chart2container h5 {
