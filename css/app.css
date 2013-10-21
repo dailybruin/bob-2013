@@ -5,6 +5,9 @@ body {
 header.chapter-one {
   background-image: url('../img/day1/header.jpg');
 }
+header.photos {
+  background-image: url('../img/photo/header.jpg');
+}
 
 a {
   color:#879C04;
@@ -120,6 +123,7 @@ header {
   margin: 0;
   position: relative;
   top: 129px;
+  font-size: 3.2em;
 }
 #package-title #package-title-first {
   font-style: italic;

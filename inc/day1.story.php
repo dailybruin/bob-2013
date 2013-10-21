@@ -1,7 +1,7 @@
 <article>
   <div class="headline">
     <h2>A Battle for Care</h2>
-    <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 21, 2013</span></div>  </div>
+    <div class="head-info"><span class="byline">By Sonali Kohli and Blaine Ohigashi</span> • <span class="date">October 21, 2013</span></div>  </div>
   
   <div class="subhead">
     <hr />
@@ -189,6 +189,9 @@
       <p>In Malawi, more than 90 percent of HIV/AIDS research, prevention and treatment funding is international. </p>
       <p>As HIV prevalence decreases internationally, high-prevalence countries are seeing efforts to single out high-risk populations such as sex workers, drug addicts and MSM. </p>
       <p>UCLA focuses research and medical aid on some of these populations in other parts of the world where there is often a more accepting legal climate.</p>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/3hE25C6VctE?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>Money comes from worldwide agencies including the the United Nations and the Global Fund to Fight AIDS, Tuberculosis and Malaria, and from individual countries such as the U.S. and England. It gets parceled out to the many nongovernmental organizations that saturate the streets in jeeps adorned with agency logos, and to faith-based organizations such as Partners in Hope, a private hospital in Malawi that UCLA partners with to conduct medical research and provide HIV/AIDS training, prevention and treatment services.</p>
       <p></p>
       <p><strong>Research and rights</strong></p>
@@ -262,6 +265,9 @@
       <p>But getting MSM in the national plan doesn’t mean that the government is actually allocating aid to that community.</p>
       <p>So Baral and the center at Johns Hopkins are conducting a study with CEDEP to determine whether it would be possible to implement an intervention and prevention program for the MSM community in Malawi.</p>
       <p>In 2010, the researchers took 100 HIV negative participants from the population estimate study and monitored them with HIV counseling and testing every three months, as well as contact with peer educators who provided communication, condoms and lubrication. They’re now in the analysis stage of that study.</p>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/pvVsTCsN57k" frameborder="0" allowfullscreen></iframe>
+      </div>
   </div>
 </div>
 <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day1/web.bob.10.21.blantyre.picA.jpg')">
@@ -311,6 +317,9 @@
       <p>At trainings, Zulu reminds doctors and nurses of the oath they took to help all people, regardless of who they are. If they say they are promoting illegal activity by treating MSM, leaders at the trainings point out that doctors treat criminals who come to the office from prisons.        	</p>
       <p>That might be because men don’t know where to go for help or who to ask for, Zulu said.</p>
       <p>Chipo’s routine when he comes to the clinic, for example, is different than that of other patients. Instead of waiting, he and his sister, who often accompanies him to the doctor, walk straight to the check-in desk and asks for Blessings, a clinician who has been trained in treating MSM.</p>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/s8qHuE0ks4E?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>He is more comfortable this way, and though the medical treatment is similar to other clinics, Chipo does not face the ridicule he has in the past, so he comes back with any ailments he has.</p>
       <p>And if he doesn’t return for a while, Zulu will notice.</p>
       <p>“She calls me checking on me, or she sees I am not around,” Chipo said. “She calls, ‘Why are you hiding, what’s going on, what’s keeping you busy?’”</p>
