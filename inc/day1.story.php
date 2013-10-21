@@ -238,7 +238,7 @@
         <img src="<?php echo SITE_URL ?>img/day1/web.bob.10.21.andrea.dunker.picA.jpg" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          Centre for the Development of People administrator Dunker Kamba and Johns Hopkins Center for Public Health and Human Rights researcher Andrea Wirtz check data from a study on men who have sex with men in Malawi.
+          Centre for the Development of People administrator Dunker Kamba and Johns Hopkins Center for PUblic Health and Human Rights researcher Andrea Wirtz check data from a study on men who have sex with men in Malawi.
         </figcaption>
       </figure>
       <p>But research in the country requires ethical approval from both the home institution and the host country.</p>
@@ -256,9 +256,13 @@
       <p>But getting MSM in the national plan doesn’t mean that the government is actually allocating aid to that community.</p>
       <p>So Baral and the center at Johns Hopkins are conducting a study with CEDEP to determine whether it would be possible to implement an intervention and prevention program for the MSM community in Malawi.</p>
       <p>In 2010, the researchers took 100 HIV negative participants from the population estimate study and monitored them with HIV counseling and testing every three months, as well as contact with peer educators who provided communication, condoms and lubrication. They’re now in the analysis stage of that study.</p>
-      <div class="flex-video">
-        <iframe width="420" height="315" src="//www.youtube.com/embed/pvVsTCsN57k" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day1/web.bob.10.21.healthcare.picB.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          This poster is in the office of the Centre for the Development of People, Malawi's primary lesbian, gay, bisexual and transgender rights organization.
+        </figcaption>
+      </figure>
       <p>CEDEP is also conducting a population estimate in the rest of the country, to provide a more complete view of the MSM community and HIV prevalence, which could also help improve aid. This should be done by the end of the year, Baral said.</p>
       <p>With a tighter grasp on how to prevent HIV in general populations and increased concern about getting the greatest possible value for donor money, governments and agencies are expected to make a strong and specific case for funding, said Patrick Brenny, the former director for the Joint United Nations Programme on HIV/AIDS, or UNAIDS, in Malawi. Brenny was the director until August, when he moved to Tanzania.</p>
       <p>“Malawians haven't had to make that case before," Brenny said.</p>
@@ -290,13 +294,9 @@
       <p>She approached Trapence to create a workshop to teach MSM the risks of transmission and safe sex practices.</p>
       <p>At the workshop, she explained that anal sex is more likely to lead to HIV transmission than vaginal sex because the lining of the anus is much thinner. She taught them that men should wear condoms when having sex with other men and should use lubricant to prevent the condom from breaking.</p>
       <p>Zulu has also made an effort to train health care providers on how to treat MSM, but some are still averse to the idea, so she doesn’t push them.</p>
-      <figure>
-        <img src="<?php echo SITE_URL ?>img/day1/web.bob.10.21.healthcare.picB.jpg" />
-        <figcaption>
-          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          This poster is in the office of the Centre for the Development of People, Malawi's primary lesbian, gay, bisexual and transgender rights organization.
-        </figcaption>
-      </figure>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/pvVsTCsN57k" frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>“What we have agreed is we don’t want them to work against their beliefs … as long as they are nice to these guys when they come in the clinic.” Zulu said. “You don’t have to treat them – welcome them nicely, introduce them to the person that they want to see. And that has worked well for us.”</p>
       <p>But she also holds trainings for other providers interested in treating MSM.</p>
       <p>In Malawi, not every health care professional is a doctor. A range of classifications between doctor and nurse exist, depending on the level of training – it’s common for a clinical officer, the equivalent of a U.S. nurse practitioner, to have the highest rank in a clinic, without going through full medical school.</p>
