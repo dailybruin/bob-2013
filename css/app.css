@@ -610,6 +610,10 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   font-family:"Helvetica Neue", "Helvetica", Arial, sans-serif;
   padding:20px;
   z-index:10;
+  display:none;
+}
+#hover-container.visible {
+  display:block;
 }
 
 /* Use this media query to add styles to any device that supports media queries */
