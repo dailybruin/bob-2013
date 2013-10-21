@@ -114,6 +114,10 @@ header {
   overflow:hidden;
 }
 
+.static-graphic {
+  margin-bottom:20px;
+}
+
 #package-title {
   text-align:center;
   font-family: "Palatino Linotype",Georgia,serif;

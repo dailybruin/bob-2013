@@ -17,8 +17,8 @@
       <div class="large-12">
         <h4>Editor's note</h4>
         <div class="edinote-note">
-          <p>Today through Wednesday, the Daily Bruin is publishing a series about the lesbian, gay, bisexual and transgender community in Malawi, a country that outlaws homosexuality and which UCLA has a strong research presence. The reporting in Malawi was made possible by the Bridget O’Brien Scholarship Foundation, which is in its sixth year of funding UCLA journalism with global reach and local impact.</p>
-          <p>This year’s recipients, reporter Sonali Kohli and photographer Blaine Ohigashi, spent 24 days in Malawi talking to LGBT Malawians about the health care and human rights challenges they face, and to activists and researchers working with the community. The reporters provided meals and transportation for some sources who agreed to be interviewed. Most interviews were conducted in English, but some spoke in Chichewa, the most common language in Malawi. In those cases, the interviews were translated by a representative from the primary LGBT rights organization in the country. All of the LGBT men and women the journalists spoke to in Malawi were kept anonymous in this series because of the danger that the laws and heavy social stigma pose. The journalists asked each anonymous person to choose the name that appears in the stories.</p>
+          <p>Today through Wednesday, the Daily Bruin is publishing a series about the lesbian, gay, bisexual and transgender community in Malawi, a country that outlaws homosexuality and in which UCLA has a strong research presence. The reporting in Malawi was made possible by the Bridget O’Brien Scholarship Foundation, which is in its sixth year of funding UCLA journalism with global reach and local impact.</p>
+          <p>This year’s recipients, reporter Sonali Kohli and photographer Blaine Ohigashi, spent 24 days in Malawi talking to LGBT Malawians, activists and researchers about the health care and human rights challenges the community faces. The reporters provided meals and transportation for some sources who agreed to be interviewed. Most interviews were conducted in English, but some spoke in Chichewa, the most common language in Malawi. In those cases, the interviews were translated by a representative from the primary LGBT rights organization in the country. All of the LGBT men and women the journalists spoke to in Malawi were kept anonymous in this series because of the danger that the laws and heavy social stigma pose. The journalists asked each anonymous person to choose the name that appears in the stories.</p>
           <p>Visit <a href="http://www.rememberingbridget.com/">www.rememberingbridget.com</a> to learn about the scholarship.</p>
          </div>
       </div>
@@ -178,7 +178,7 @@
       <p>“When I was coming from the consultation room, I found all the staff sitting in the lounge waiting to see me, saying that this boy is homosexual, that’s why he contracted the disease. When I was going out, people were peeping through the window, laughing,” Chipo said. The clinic was in Blantyre and was not affiliated with UCLA.</p>
   </div>
 </div>
-<div class="row">
+<div class="row static-graphic">
   <div class="large-8 large-centered columns">
     <img src="<?php echo SITE_URL ?>img/day1/10.21.BOB.Malawi.FINAL.edit1.jpg" />
   </div>
@@ -198,7 +198,7 @@
       <p>The UCLA Program in Global Health does not tailor any of its research or treatment specifically toward the lesbian, gay, bisexual and transgender community in Malawi, nor do most U.S. organizations operating in the country. </p>
   </div>
 </div>
-<div class="row">
+<div class="row static-graphic">
   <div class="large-12 columns">
     <img src="<?php echo SITE_URL ?>img/day1/10.21.copyedited.BOB.UCLAHealthGlobalPresence2.jpg" />
   </div>
@@ -208,15 +208,6 @@
       <p>The university does, however, fund HIV/AIDS research and prevention efforts involving LGBT populations in countries such as South Africa and Peru, where homosexuality is legal.</p>
       <p>Of the countries where UCLA conducts HIV/AIDS work, Malawi is one of the harshest toward gay men and women – men face up to 14 years in prison with hard labor if convicted of homosexual acts, and women face up to five years. </p>
       <p>A current moratorium on enforcing the laws exists, but social stigma and the rare possibility of arrest still serve as barriers to medical care. </p>
-  </div>
-</div>
-<div class="row">
-  <div class="large-10 large-centered columns">
-    <img src="<?php echo SITE_URL ?>img/day1/10.21.copyedited.BOB.UCLAinMalawi.edit2.jpg" />
-  </div>
-</div>
-<div class="row">
-  <div class="large-7 large-offset-3 columns story">
       <p>Although it is nationally and internationally acknowledged that MSM are a high-risk population, nonprofits and universities in the country have to be careful of addressing the issue for fear of alienation from the government and people they work with. Organizations say they could lose the support of the government and their local infrastructure if it seems like they are pushing other countries’ ideals in opposition to Malawi’s laws. </p>
       <p>Malawi, though it has a secular government, is a mostly Christian nation in which anti-gay sentiment is high and people often refer to the Bible to reinforce their point that homosexuality is wrong.</p>
       <figure>
@@ -243,6 +234,13 @@
       <p><strong>Building a case</strong></p>
       <p>While UCLA’s approach to HIV/AIDS is similar to that of most international institutions operating in Malawi, other organizations do direct aid to the LGBT community.</p>
       <p>Stefan Baral, a researcher at the Johns Hopkins Center for Public Health and Human Rights, has been working with the LGBT community in Malawi since about 2006. He works mostly with the Centre for the Development of People, known as CEDEP, Malawi’s primary gay rights organization.</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day1/web.bob.10.21.andrea.dunker.picA.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          Centre for the Development of People administrator Dunker Kamba and Johns Hopkins Center for PUblic Health and Human Rights researcher Andrea Wirtz check data from a study on men who have sex with men in Malawi.
+        </figcaption>
+      </figure>
       <p>But research in the country requires ethical approval from both the home institution and the host country.</p>
       <p>Baral and CEDEP used a carrot-and-stick approach to get the Malawian Ministry of Health to support their research on HIV/AIDS prevention in MSM, Baral said.</p>
       <p>He pointed out that more data on the MSM community in Malawi would increase the country’s eligibility for Global Fund money, which is increasingly becoming tied to human rights. </p>
@@ -254,13 +252,6 @@
       <p>“People would meet with me because I’m from Johns Hopkins and I’m a physician,” Baral said. “But as soon as it got into a serious conversation about what we wanted to do and what we were there for, the conversation ended.”</p>
       <p>Baral’s team and CEDEP leaders determined that in order to provide aid for the community, they must first prove there is an LGBT presence in Malawi, something many people still deny.</p>
       <p>They started with a 60-person survey in 2006 to establish the existence of MSM in the country and ask about the community’s needs. Then they moved on to the 2008 population estimate in Blantyre, where about 21 percent of about 200 participants tested HIV positive. The 2008 study led to the first governmental acknowledgment of the LGBT community. </p>
-      <figure>
-        <img src="<?php echo SITE_URL ?>img/day1/web.bob.10.21.andrea.dunker.picA.jpg" />
-        <figcaption>
-          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          Centre for the Development of People administrator Dunker Kamba and Johns Hopkins Center for PUblic Health and Human Rights researcher Andrea Wirtz check data from a study on men who have sex with men in Malawi.
-        </figcaption>
-      </figure>
       <p>“The data ... was used to justify the inclusion of MSM in the national HIV strategic plan,” said Gift Trapence, CEDEP’s director.</p>
       <p>But getting MSM in the national plan doesn’t mean that the government is actually allocating aid to that community.</p>
       <p>So Baral and the center at Johns Hopkins are conducting a study with CEDEP to determine whether it would be possible to implement an intervention and prevention program for the MSM community in Malawi.</p>
@@ -268,24 +259,6 @@
       <div class="flex-video">
         <iframe width="420" height="315" src="//www.youtube.com/embed/pvVsTCsN57k" frameborder="0" allowfullscreen></iframe>
       </div>
-  </div>
-</div>
-<aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day1/web.bob.10.21.blantyre.picA.jpg')">
-  <div class="quote" style="position: absolute;right: -40px;">
-    He did not tell me until he was on his deathbed &hellip; That pushed me to do something.
-    <span class="quote-credit">— Zulu</span>
-  </div><!-- end div.quote -->
-
-  <div class="caption-rollover closed">
-    <a href="#" class="caption-button">i</a>
-    <span class="caption">The city of Blantyre is the commercial and financial center of Malawi, as well as the capital city of the southrn region of the country. One of CEDEP's offices is in the city.
-      <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-    </span>
-  </div>
-</aside>
-
-<div class="row">
-  <div class="large-7 large-offset-3 columns story">      
       <p>CEDEP is also conducting a population estimate in the rest of the country, to provide a more complete view of the MSM community and HIV prevalence, which could also help improve aid. This should be done by the end of the year, Baral said.</p>
       <p>With a tighter grasp on how to prevent HIV in general populations and increased concern about getting the greatest possible value for donor money, governments and agencies are expected to make a strong and specific case for funding, said Patrick Brenny, the former director for the Joint United Nations Programme on HIV/AIDS, or UNAIDS, in Malawi. Brenny was the director until August, when he moved to Tanzania.</p>
       <p>“Malawians haven't had to make that case before," Brenny said.</p>
@@ -293,6 +266,24 @@
       <p><strong>A helping hand</strong></p>
       <p>Zulu, Chipo’s friend and the project coordinator for the Johns Hopkins University Research Project, has more personal reasons for helping the LGBT community.</p>
       <p>Chipo and Zulu met in 2010, when she did a presentation to teach MSM about HIV transmission and safe sex.</p>
+    </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day1/web.bob.10.21.blantyre.picA.jpg')">
+    <div class="quote" style="position: absolute;right: -40px;">
+      He did not tell me until he was on his deathbed &hellip; That pushed me to do something.
+      <span class="quote-credit">— Fatima Zulu</span>
+    </div><!-- end div.quote -->
+
+    <div class="caption-rollover closed">
+      <a href="#" class="caption-button">i</a>
+      <span class="caption">The city of Blantyre is the commercial and financial center of Malawi, as well as the capital city of the southrn region of the country. One of CEDEP's offices is in the city.
+        <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+      </span>
+    </div>
+  </aside>
+
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p>Chipo didn’t know he could contract HIV from a male partner, let alone that he was at greater risk of contracting the disease than other people.</p>
       <p>Zulu, who was already working for the Johns Hopkins University Research Project at the time, wanted to do the presentation because she had recently lost a friend to a sexually transmitted disease. He was gay and afraid to approach her for help.</p>
       <p>“He did not tell me until he was on his deathbed,” Zulu said. “That pushed me to do something.”</p>
