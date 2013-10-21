@@ -530,6 +530,10 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   margin-top:5px;
 }
 
+#graphic-usfunding .chart2container .left-label.selected {
+  color:red;
+}
+
 #graphic-usfunding .chart2container .right-data {
   width:80%;
   height:20px;

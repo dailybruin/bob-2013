@@ -403,6 +403,21 @@ var USFUNDING_DATA = {
 var USFUNDING_CURYEAR = "2012";
 var USFUNDING_MAX = 545969000;
 
+function usfunding_selectcountry(countrycode)
+{
+  $('#graphic-usfunding .mapcontainer [country_code='+ countrycode +']').attr('class','selected');
+  $('#graphic-usfunding .right-data[data-country-bar='+ countrycode +']').addClass('selected');
+  $('#graphic-usfunding .left-label[data-country-code='+ countrycode + ']').addClass('selected');
+  
+}
+function usfunding_deselectcountry(countrycode)
+{
+  $('#graphic-usfunding .mapcontainer [country_code='+ countrycode +']').attr('class','');
+  $('#graphic-usfunding .right-data[data-country-bar='+ countrycode +']').removeClass('selected');
+  $('#graphic-usfunding .left-label[data-country-code='+ countrycode + ']').removeClass('selected');
+  
+}
+
 $(document).ready(function(){
   $('#graphic-usfunding .mapcontainer').load("/img/day2/world_funding.svg", function(){
     for(country in USFUNDING_DATA)
@@ -415,14 +430,12 @@ $(document).ready(function(){
       
       country_el.hover(function(){
         $('#hover-container').text($(this).attr('country_name'));
-        $(this).attr('class','selected');
-        console.log(this);
+        usfunding_selectcountry($(this).attr('country_code'));
         showTooltip();
       }, function(){
         hideTooltip();
-        $(this).attr('class','');
+        usfunding_deselectcountry($(this).attr('country_code'));
       });
-      
     }
   })
   
@@ -437,11 +450,11 @@ $(document).ready(function(){
       }
       $(this).hover(function(){
         $('#hover-container').text("$"+addCommas(USFUNDING_DATA[$(this).data('country-bar')]['data'][newyear]['funding']));
-        $(this).addClass('selected');
+        usfunding_selectcountry($(this).data('country-bar'));
         showTooltip();
       }, function(){
         hideTooltip();
-        $(this).removeClass('selected');
+        usfunding_deselectcountry($(this).data('country-bar'));
       });
     });
   }
