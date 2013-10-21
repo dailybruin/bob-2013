@@ -27,7 +27,7 @@ $(document).ready(function(){
 });
 
 // Day 1
-var USFUNDING_COLORS = ["#1B1D18", "#879C04", "#D7E86F", "#BBBBBB", "#0B677C"];
+var USFUNDING_COLORS = ["#1B1D18", "#879C04", "#D7E86F", "#84B6C2", "#0B677C"];
 var USFUNDING_DATA = {
   "ZA" : {
     "name" : "South Africa",
@@ -362,6 +362,17 @@ var USFUNDING_DATA = {
 }
 
 $(document).ready(function(){
-  $('#graphic-usfunding .mapcontainer').load("/img/day2/world_funding.svg")
+  $('#graphic-usfunding .mapcontainer').load("/img/day2/world_funding.svg", function(){
+    for(country in USFUNDING_DATA)
+    {
+      var country_el = $('#graphic-usfunding .mapcontainer [country_code='+ country +']');
+      var thiscolor = USFUNDING_COLORS[USFUNDING_DATA[country]['hlegality']];
+      country_el.css('fill',thiscolor).css('stroke',"#000000");
+      country_el.children("path").css('fill',thiscolor).css('stroke',"#000000");
+      country_el.children("g").children("path").css('fill',thiscolor).css('stroke',"#000000");
+      
+    }
+    // $('#graphic-usfunding .mapcontainer')
+  })
   
 });
