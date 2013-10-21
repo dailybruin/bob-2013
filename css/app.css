@@ -534,14 +534,25 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
 #graphic-usfunding .chart2container .right-data div {
   height:100%;
   background-color:blue;
+  transition:1s width;
+  -moz-transition:1s width;
+  -webkit-transition:1s width;
+  -ie-transition:1s width;
 }
 
 #graphic-usfunding .chart2container h5 {
   font-weight: normal;
-  text-align: center;
   font-size: 1.2em;
+  text-align: left;
+  padding-left: 150px;
 }
 
+#graphic-usfunding .changeyear {
+  width: 15%;
+  float: left;
+  margin-top: 8px;
+  margin-left: 55px;
+}
 
 .graphic-title {
   color: #333;
@@ -589,6 +600,16 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   margin-right: 5px;
   position: relative;
   top: 4px;
+}
+
+#hover-container {
+  position:absolute;
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+  font-weight:bold;
+  font-family:"Helvetica Neue", "Helvetica", Arial, sans-serif;
+  padding:20px;
+  z-index:10;
 }
 
 /* Use this media query to add styles to any device that supports media queries */

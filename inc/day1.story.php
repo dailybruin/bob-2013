@@ -75,7 +75,14 @@
     </div>
     <div class="mapcontainer"></div>
     <div class="chart1container"></div>
-    <div class="chart2container">
+    <div class="chart2container">      
+      <select class="changeyear">
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
+        <option value="2009">2009</option>
+      </select>
+      
       <h5>HIV/AIDS funding from the U.S.</h5>
       
       <div class="left-label">South Africa</div>

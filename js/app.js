@@ -24,6 +24,16 @@ $(document).ready(function(){
       $(this).css('background-position', "center " + offset + "px");
     });
   });
+  
+  // Make hover container work
+  $(window).mousemove(function(event){
+    $('#hover-container').css('top',event.pageY).css('left',event.pageX+10).css('right','auto');
+    // Don't let it move off the right side of the screen
+    if($('#hover-container').position().left + $('#hover-container').width() + 10 > $(window).width())
+    {
+      $('#hover-container').css('right','10px').css('left','auto');
+    }
+  });
 });
 
 // Day 1
@@ -375,12 +385,23 @@ $(document).ready(function(){
     }
   })
   
-  $('#graphic-usfunding .chart1container').load("/img/day2/line_funding.svg", function(){
+  function usfunding_changeyear(newyear, initial)
+  {
     $('#graphic-usfunding .chart2container [data-country-bar]').each(function(){
-      var width = (USFUNDING_DATA[$(this).data('country-bar')]['data'][USFUNDING_CURYEAR]['funding'] / USFUNDING_MAX)*100;
+      var width = (USFUNDING_DATA[$(this).data('country-bar')]['data'][newyear]['funding'] / USFUNDING_MAX)*100;
       $(this).children('div').css('width', width+"%");
-      $(this).children('div').css('background-color', USFUNDING_COLORS[USFUNDING_DATA[$(this).data('country-bar')]['hlegality']]);
-    });
+      if(initial)
+        $(this).children('div').css('background-color', USFUNDING_COLORS[USFUNDING_DATA[$(this).data('country-bar')]['hlegality']]);
+    
+      });
+  }
+    
+  $('#graphic-usfunding .chart1container').load("/img/day2/line_funding.svg", function(){
+    usfunding_changeyear("2012", true);
   });
+  
+  $('#graphic-usfunding .changeyear').change(function(){
+    usfunding_changeyear($(this).val(), false);
+  })
   
 });

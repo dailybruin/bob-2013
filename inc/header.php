@@ -24,7 +24,7 @@
 
 </head>
 <body>
-  
+    
   <header>
     <a href="http://dailybruin.com" id="nameplate">
       <img src="<?php echo SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
