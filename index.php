@@ -5,17 +5,25 @@ $stories = array(
   "chapter-one" => array(
     "DEFAULT" => "a-battle-for-care",
     "RELEASE" => "10/16/2013 3:50AM",
-    "a-battle-for-care" => "inc/day1.story.php"
+    "a-battle-for-care" => array(
+      "file" => "inc/day1.story.php",
+      "title" => "A Battle for Care"
+    )
   ),
   "chapter-two" => array(
     "DEFAULT" => "storytwo",
     "RELEASE" => "10/16/2013 3:30AM",
-    "storytwo" => "inc/day2.story2.php"
+    "storytwo" => array(
+      "file" => "inc/day2.story2.php"
+    )
   ),
   "photos" => array(
     "DEFAULT" => "revealing-voices",
     "RELEASE" => "10/16/2013 3:30AM",
-    "revealing-voices" => "inc/photos.profiles.php"
+    "revealing-voices" => array(
+      "file" => "inc/photos.profiles.php",
+      "title" => "Revealing Voices"
+    )
   ),
 );
 
@@ -63,9 +71,11 @@ if($cur_part == $stories["DEFAULT"] && $cur_story == $stories[$stories["DEFAULT"
   $canonical_url = SITE_URL;
 }
 
+$curtitle = $stories[$cur_part][$cur_story]['title'];
+
 // Render the page
 include('inc/header.php'); 
 
-include($stories[$cur_part][$cur_story]);
+include($stories[$cur_part][$cur_story]['file']);
 
 include('inc/footer.php'); ?>

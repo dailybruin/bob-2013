@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>In the Shadows | Daily Bruin</title>
+  <title><?php if(isset($curtitle)): print $curtitle; ?> | <?php endif; ?>In the Shadows | Daily Bruin</title>
   
   <?php if(isset($canonical_url)): ?>
   <link href="<?php echo $canonical_url; ?>" rel="canonical" />
@@ -27,6 +27,7 @@
     <meta property="og:url" content="<?php echo $canonical_url; ?>"/>
   <?php endif; ?>
   <meta property="og:site_name" content="Daily Bruin"/>
+  <meta property="og:title" content="<?php if (isset($curtitle)): print $curtitle; ?> | <?php endif; ?>In the Shadows | Daily Bruin" />
   <meta property="og:type" content="article"/>
   <meta property="og:image" content="<?php echo SITE_URL; ?>img/gen/thumb.jpg"/>
   <meta property="og:image" content="http://dailybruin.com/images/2013/01/dailybruinicon2.jpeg"/>
