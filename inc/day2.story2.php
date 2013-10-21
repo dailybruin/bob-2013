@@ -12,11 +12,28 @@
     <div class="large-7 large-offset-3 columns story story-drop">
       <p>Clad in a long white and yellow dress with a gold skirt underneath, her hair in a buzz cut, the lecturer faces a packed room of about 70 Malawian college students.</p>
       <p>“Is a woman born or made?” English lecturer and human rights activist Jessie Kabwila asks the class.</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.Jessie.picB.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          Malawian human rights activist Jessie Kabwila is a vocal LGBT rights advocate. In this July lecture, she challenged about 70 students to rethink gender roles and where they come from, lecturing in English but peppering in jokes in Chichewa.
+        </figcaption>
+      </figure>
       <p>The students, who squeeze two to a desk or perch atop tables and window ledges, are split on how to answer. There’s a vocal part of the room that thinks the former.</p>
       <p>“You think you are born a woman?” </p>
       <p>Sunlight pierces a window and glints off Kabwila’s hanging gold earrings and the chain necklace that complements her gold skirt.</p>
       <p>“Prove it,” she challenges them.</p>
       <p>Unlike most advocates in a country where same-sex relations are illegal, Kabwila does not have to worry about what she says.</p>
+    </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day2/05.Header.JPG')">
+    <div class="quote" style="padding:0">
+      You think you are born a woman? &hellip; Prove it.
+      <span class="quote-credit">— Jessie Kabwila</span>
+    </div><!-- end div.quote -->
+  </aside>
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p>She earned national acclaim as an advocate for universities and educational reform, and is now an outspoken advocate for lesbian, gay, bisexual and transgender rights. She has enough political capital, she said, that people respect her even if she’s talking about a taboo subject like LGBT rights.</p>
       <p>She uses this capital to influence the mindset of Malawi’s next set of leaders and policymakers – college students.</p>
       <p>As a lecturer at Chancellor College in Zomba, a city in the southern region of the country, Kabwila addresses gay rights though many in the Malawian university system shy away from it.</p>
@@ -27,10 +44,23 @@
       <p>She brings up the example of an intersexed Malawian child who did not know which bathroom to use and stopped attending school after facing ridicule. Intersexed people are born with both male and female sexual organs.</p>
       <p>Noticing that some of the men in the room might be uncomfortable with the topic at hand, Kabwila calls them out.</p>
       <p>“Do not pretend you don’t know what a vagina is,” she says, to more laughs.</p>
+    </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day2/06.Header.JPG')">
+    <div class="quote" style="padding:0">
+      Remember – language is the battleground of humanity.
+      <span class="quote-credit">— Jessie Kabwila</span>
+    </div><!-- end div.quote -->
+  </aside>
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p>But while Kabwila does not shy from the issues, she does make sure to keep them connected to the topic of her literature course.</p>
       <p>“Remember – language is the battleground of humanity.”</p>
       <p>She also balances the controversial topic with humor and avoids alienating students, peppering her English-language lecture with jokes in Chichewa, the common Malawian language.</p>
       <p>“Don’t worry, I’m not going to make this into a ‘gay’ lecture,” she tells the class before moving on to postcolonial theory. </p>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/URKGIa0b_jI" frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>University settings in Malawi are similar to the rest of society in that LGBT rights are a generally taboo subject. Chancellor College has allowed at least one on-campus debate about the issue, but students were not heavily involved. </p>
       <p>Galia Boneh has also taught at Chancellor College and founded the Art and Global Health Center Africa, which is affiliated with UCLA’s Art and Global Health Center.</p>
       <p>Boneh is originally from Israel and earned her doctorate from UCLA under world arts and cultures professor David Gere, who is involved in arts activism around the globe.</p>
