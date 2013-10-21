@@ -360,6 +360,8 @@ var USFUNDING_DATA = {
     }
   }
 }
+var USFUNDING_CURYEAR = "2012";
+var USFUNDING_MAX = 545969000;
 
 $(document).ready(function(){
   $('#graphic-usfunding .mapcontainer').load("/img/day2/world_funding.svg", function(){
@@ -374,6 +376,11 @@ $(document).ready(function(){
   })
   
   $('#graphic-usfunding .chart1container').load("/img/day2/line_funding.svg", function(){
-  
+    $('#graphic-usfunding .chart2container [data-country-bar]').each(function(){
+      var width = (USFUNDING_DATA[$(this).data('country-bar')]['data'][USFUNDING_CURYEAR]['funding'] / USFUNDING_MAX)*100;
+      $(this).children('div').css('width', width+"%");
+      $(this).children('div').css('background-color', USFUNDING_COLORS[USFUNDING_DATA[$(this).data('country-bar')]['hlegality']]);
+    });
+  });
   
 });

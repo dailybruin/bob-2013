@@ -74,6 +74,56 @@
       </ul>
     </div>
     <div class="mapcontainer"></div>
+    <div class="chart1container"></div>
+    <div class="chart2container">
+      <h5>HIV/AIDS funding from the U.S.</h5>
+      
+      <div class="left-label">South Africa</div>
+      <div class="right-data" data-country-bar="ZA"><div></div></div>
+      
+      <div class="left-label">Kenya</div>
+      <div class="right-data" data-country-bar="KE"><div></div></div>
+      
+      <div class="left-label">Nigeria</div>
+      <div class="right-data" data-country-bar="NG"><div></div></div>
+      
+      <div class="left-label">Tanzania</div>
+      <div class="right-data" data-country-bar="TZ"><div></div></div>
+      
+      <div class="left-label">Uganda</div>
+      <div class="right-data" data-country-bar="UG"><div></div></div>
+      
+      <div class="left-label">Zambia</div>
+      <div class="right-data" data-country-bar="ZM"><div></div></div>
+      
+      <div class="left-label">Mozambique</div>
+      <div class="right-data" data-country-bar="MZ"><div></div></div>
+      
+      <div class="left-label">Ethiopia</div>
+      <div class="right-data" data-country-bar="ET"><div></div></div>
+      
+      <div class="left-label">Haiti</div>
+      <div class="right-data" data-country-bar="HT"><div></div></div>
+      
+      <div class="left-label">Cote d'Ivoire</div>
+      <div class="right-data" data-country-bar="CI"><div></div></div>
+      
+      <div class="left-label">Rwanda</div>
+      <div class="right-data" data-country-bar="RW"><div></div></div>
+      
+      <div class="left-label">Namibia</div>
+      <div class="right-data" data-country-bar="NA"><div></div></div>
+      
+      <div class="left-label">Vietnam</div>
+      <div class="right-data" data-country-bar="VN"><div></div></div>
+      
+      <div class="left-label">Botswana</div>
+      <div class="right-data" data-country-bar="BW"><div></div></div>
+      
+      <div class="left-label">Malawi</div>
+      <div class="right-data" data-country-bar="MW"><div></div></div>
+    </div>
+    <div class="clear"></div>
   </div><!-- end div#graphic-usfunding -->
   
 <?php /*      

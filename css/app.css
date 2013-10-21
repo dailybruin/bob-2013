@@ -477,7 +477,7 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   display: block;
   height: 100%;
   position: relative;
-  top: -110px;
+  top: -100px;
   overflow: hidden;
   left: -10%;
 }
@@ -488,6 +488,60 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   float: left;
   line-height: 1em;
 }
+
+#graphic-usfunding .chart1container {
+  width: 45%;
+  margin-left: 30px;
+  margin-top: -200px;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.8);
+  position: relative;
+  padding: 5px;
+  padding-bottom: 28px;
+  float:left;
+}
+
+#graphic-usfunding .chart1container svg {
+  width:100%;
+}
+
+#graphic-usfunding .chart2container {
+  float:right;
+  width:45%;
+  margin-top: -200px;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.8);
+  position: relative;
+  margin-right:20px;
+}
+
+#graphic-usfunding .chart2container .left-label {
+  width:20%;
+  clear:both;
+  float:left;
+  text-align:right;
+  box-sizing:border-box;
+  padding-right:10px;
+  margin-top:5px;
+}
+
+#graphic-usfunding .chart2container .right-data {
+  width:80%;
+  height:20px;
+  float:left;
+}
+
+#graphic-usfunding .chart2container .right-data div {
+  height:100%;
+  background-color:blue;
+}
+
+#graphic-usfunding .chart2container h5 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.2em;
+}
+
 
 .graphic-title {
   color: #333;
