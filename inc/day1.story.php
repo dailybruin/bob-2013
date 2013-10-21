@@ -63,10 +63,9 @@
   
   
   <div class="graphic" id="graphic-places">
-    <div class="intro">Click on a city to learn more</div>
     <div class="mapcontainer"></div>
     <div class="cities-container">
-      <div id="blantyre" class="active">
+      <div id="blantyre">
         <h4>Blantyre</h4>
         <span class="cities-desc">The city of Blantyre is the commercial and financial center of Malawi, as well as the capital city of the southern region of the country. The city is densely populated and is home to many of Malawi’s universities.</span>
         <div class="slider-buttons">
@@ -74,29 +73,105 @@
           <a class="next" href="#">Next →</a>
         </div>
         <ul class="slider">
-          <li class="active"><img src="/img/day1/places/Zomba/01.Zomba.JPG" /></li>
-          <li><img src="/img/day1/places/Zomba/02.Zomba.JPG" /></li>
+          <li class="active"><img src="/img/day1/places/Blantyre/01.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/02.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/03.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/04.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/05.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/06.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/07.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/08.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/09.Blantyre.JPG" /></li>
+          <li><img src="/img/day1/places/Blantyre/10.Blantyre.JPG" /></li>
         </ul>
       </div>
-      <div id="lilongwe">
+      <div id="lilongwe" class="active">
         <h4>Lilongwe</h4>
         <span class="cities-desc">Malawi’s capital and the country’s largest city, Lilongwe is located in the central region of the country. It is home to a maze of districts boasting bustling markets and houses most of the foreign diplomats in the country. The country celebrated its 49th year of independence on July 6, with performances and sporting events in the city.</span>
+        <div class="slider-buttons">
+          <a class="prev disabled" href="#">← Prev</a>
+          <a class="next" href="#">Next →</a>
+        </div>
+        <ul class="slider">
+          <li class="active"><img src="/img/day1/places/Lilongwe/01.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/02.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/03.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/04.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/05.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/06.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/07.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/08.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/09.Lilongwe.JPG" /></li>
+          <li><img src="/img/day1/places/Lilongwe/10.Lilongwe.JPG" /></li>
+        </ul>
       </div>
       <div id="mangochi">
         <h4>Mangochi</h4>
         <span class="cities-desc">This area in the southern region of the country lies near Lake Malawi. Mangochi is home to many small fishing villages.</span>
+        <div class="slider-buttons">
+          <a class="prev disabled" href="#">← Prev</a>
+          <a class="next" href="#">Next →</a>
+        </div>
+        <ul class="slider">
+          <li class="active"><img src="/img/day1/places/Mangochi/01.Mangochi.JPG" /></li>
+          <li><img src="/img/day1/places/Mangochi/02.Mangochi.JPG" /></li>
+          <li><img src="/img/day1/places/Mangochi/03.Mangochi.JPG" /></li>
+          <li><img src="/img/day1/places/Mangochi/04.Mangochi.JPG" /></li>
+          <li><img src="/img/day1/places/Mangochi/05.Mangochi.JPG" /></li>
+          <li><img src="/img/day1/places/Mangochi/06.Mangochi.JPG" /></li>
+          <li><img src="/img/day1/places/Mangochi/07.Mangochi.JPG" /></li>
+        </ul>
       </div>
       <div id="mulanje">
         <h4>Mulanje</h4>
         <span class="cities-desc">Mulanje is a mountain town located in the southern region of Malawi, approximately 40 miles southeast of Blantyre. The town is known for its tea plantations and Mount Mulanje, with an elevation of over 9,800 feet.</span>
+        <div class="slider-buttons">
+          <a class="prev disabled" href="#">← Prev</a>
+          <a class="next" href="#">Next →</a>
+        </div>
+        <ul class="slider">
+          <li class="active"><img src="/img/day1/places/Mulanje/01.Mulanje.JPG" /></li>
+          <li><img src="/img/day1/places/Mulanje/02.Mulanje.JPG" /></li>
+          <li><img src="/img/day1/places/Mulanje/03.Mulanje.JPG" /></li>
+          <li><img src="/img/day1/places/Mulanje/04.Mulanje.JPG" /></li>
+          <li><img src="/img/day1/places/Mulanje/05.Mulanje.JPG" /></li>
+          <li><img src="/img/day1/places/Mulanje/06.Mulanje.JPG" /></li>
+          <li><img src="/img/day1/places/Mulanje/07.Mulanje.JPG" /></li>
+        </ul>
       </div>
       <div id="mzuzu">
         <h4>Mzuzu</h4>
         <span class="cities-desc">Mzuzu is the capital city of Malawi’s northern region. The city is famous for its coffee.</span>
+        <div class="slider-buttons">
+          <a class="prev disabled" href="#">← Prev</a>
+          <a class="next" href="#">Next →</a>
+        </div>
+        <ul class="slider">
+          <li class="active"><img src="/img/day1/places/Mzuzu/01.Mzuzu.JPG" /></li>
+          <li><img src="/img/day1/places/Mzuzu/02.Mzuzu.JPG" /></li>
+          <li><img src="/img/day1/places/Mzuzu/03.Mzuzu.JPG" /></li>
+          <li><img src="/img/day1/places/Mzuzu/04.Mzuzu.JPG" /></li>
+          <li><img src="/img/day1/places/Mzuzu/05.Mzuzu.JPG" /></li>
+        </ul>
       </div>
       <div id="zomba">
         <h4>Zomba</h4>
         <span class="cities-desc">Located in the southern region of Malawi, Zomba was the original capital of the country under British colonial rule. The lush, hilly city features the Zomba Plateau, which rises more than 5,900 feet above the city and the surrounding areas.</span>
+        <div class="slider-buttons">
+          <a class="prev disabled" href="#">← Prev</a>
+          <a class="next" href="#">Next →</a>
+        </div>
+        <ul class="slider">
+          <li class="active"><img src="/img/day1/places/Zomba/01.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/02.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/03.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/04.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/05.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/06.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/07.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/08.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/09.Zomba.JPG" /></li>
+        </ul>
       </div>
       
     </div>

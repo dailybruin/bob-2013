@@ -855,6 +855,11 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   #graphic-usfunding .graphic-key li {
     width:100%;
   }
+  #graphic-places .mapcontainer, #graphic-places .cities-container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
 }
 
 /* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
