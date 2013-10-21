@@ -695,6 +695,10 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   font-style: italic;
 }
 
+#profiles .photo-khumbo {
+  padding-bottom:30px;
+}
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
@@ -807,11 +811,11 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   #profiles #quote2 {
     text-align: center;
     margin-top: 100px;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.5px;
   }
   #profiles #quote3 {
-    font-size: 2.5em;
+    font-size: 1.8em;
     margin-top:200px;
     line-height:1.1;
   }
@@ -820,6 +824,58 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     font-size: 0.45em;
     line-height: 1.6;
     opacity: 0.6;
+  }
+  #profiles #quote4 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #profiles #quote5 {
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 1.2em;
+  }
+  #profiles #quote5 .quote-continued {
+    opacity: 0.7;
+  }
+  #profiles #quote6 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top:100px;
+  }
+  #profiles #quote6 .quote-continued {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 8px;
+    font-style: italic;
+    opacity: 0.7;
+  }
+  #profiles #quote7 {
+    text-align: right;
+    font-size: 1.2em;
+  }
+  #profiles #quote7 .quote-continued {
+    opacity:0.8;
+    display:block;
+    font-style:italic;
+    font-size:0.8em;
+  }
+  #profiles #quote8 {
+    margin-top:35px;
+  }
+  #profiles #quote9 {
+    margin-top: 200px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #profiles #quote9 .quote-continued {
+    display: block;
+    font-size: 0.7em;
+    opacity: 0.7;
+    margin-top: 11px;
+    line-height: 1.5;
   }
 }
 
