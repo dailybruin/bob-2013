@@ -61,7 +61,79 @@
     <div class="large-2 columns"> </div>
   </div><!-- end div.row -->
   
-    
+  <div class="graphic" id="graphic-usfunding">
+    <div class="graphic-header">
+      <h4 class="graphic-title">Countries which receive the most U.S. Government funding for HIV/AIDS</h4>
+      <span class="graphic-explainer">Homosexual acts are illegal in 10 of the 15 countries that receive the most HIV/AIDS funding from the U.S. Activists in some of the countries, including Malawi, use the funding to promote LGBT rights.</span>
+      <ul class="graphic-key">
+        <li><div class="sample" style="background-color:#1B1D18"></div>Imprisonment 14+ years</li>
+        <li><div class="sample" style="background-color:#879C04"></div>Imprisonment up to 14 years</li>
+        <li><div class="sample" style="background-color:#D7E86F"></div>Imprisonment, no length indication</li>
+        <li><div class="sample" style="background-color:#84B6C2"></div>Homosexual acts legal</li>
+        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex copules letal</li>
+      </ul>
+    </div>
+    <div class="mapcontainer"></div>
+    <div class="chart1container"></div>
+    <div class="chart2container">      
+      <select class="changeyear">
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+        <option value="2010">2010</option>
+        <option value="2009">2009</option>
+      </select>
+      
+      <h5>HIV/AIDS funding from the U.S.</h5>
+      
+      <div class="left-label" data-country-code="ZA">South Africa</div>
+      <div class="right-data" data-country-bar="ZA"><div></div></div>
+      
+      <div class="left-label" data-country-code="KE">Kenya</div>
+      <div class="right-data" data-country-bar="KE"><div></div></div>
+      
+      <div class="left-label" data-country-code="NG">Nigeria</div>
+      <div class="right-data" data-country-bar="NG"><div></div></div>
+      
+      <div class="left-label" data-country-code="TZ">Tanzania</div>
+      <div class="right-data" data-country-bar="TZ"><div></div></div>
+      
+      <div class="left-label" data-country-code="UG">Uganda</div>
+      <div class="right-data" data-country-bar="UG"><div></div></div>
+      
+      <div class="left-label" data-country-code="ZM">Zambia</div>
+      <div class="right-data" data-country-bar="ZM"><div></div></div>
+      
+      <div class="left-label" data-country-code="MZ">Mozambique</div>
+      <div class="right-data" data-country-bar="MZ"><div></div></div>
+      
+      <div class="left-label" data-country-code="ET">Ethiopia</div>
+      <div class="right-data" data-country-bar="ET"><div></div></div>
+      
+      <div class="left-label" data-country-code="HT">Haiti</div>
+      <div class="right-data" data-country-bar="HT"><div></div></div>
+      
+      <div class="left-label" data-country-code="CI">Cote d'Ivoire</div>
+      <div class="right-data" data-country-bar="CI"><div></div></div>
+      
+      <div class="left-label" data-country-code="RW">Rwanda</div>
+      <div class="right-data" data-country-bar="RW"><div></div></div>
+      
+      <div class="left-label" data-country-code="NA">Namibia</div>
+      <div class="right-data" data-country-bar="NA"><div></div></div>
+      
+      <div class="left-label" data-country-code="VN">Vietnam</div>
+      <div class="right-data" data-country-bar="VN"><div></div></div>
+      
+      <div class="left-label" data-country-code="BW">Botswana</div>
+      <div class="right-data" data-country-bar="BW"><div></div></div>
+      
+      <div class="left-label" data-country-code="MW">Malawi</div>
+      <div class="right-data" data-country-bar="MW"><div></div></div>
+    </div>
+    <div class="clear"></div>
+  </div><!-- end div#graphic-usfunding -->
+  
+<?php /*      
   <aside class="pull-quote parallax">
     <div class="quote">
       This is the first day of the trip. And this is a pull quote. Put things here.
@@ -75,6 +147,7 @@
       </span>
     </div>
   </aside>
+*/?>
     
   <div class="row">
     <div class="large-6 large-offset-3 columns story">

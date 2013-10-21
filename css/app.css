@@ -634,6 +634,11 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   display:block;
 }
 
+#profiles {
+  background-color:#333;
+  color:white;
+}
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 

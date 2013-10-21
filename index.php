@@ -11,7 +11,12 @@ $stories = array(
     "DEFAULT" => "storytwo",
     "RELEASE" => "10/16/2013 3:30AM",
     "storytwo" => "inc/day2.story2.php"
-  )
+  ),
+  "photos" => array(
+    "DEFAULT" => "profiles",
+    "RELEASE" => "10/16/2013 3:30AM",
+    "profiles" => "inc/photos.profiles.php"
+  ),
 );
 
 $cur_part = "";
