@@ -1,6 +1,6 @@
 <article id="profiles">
   <div class="headline">
-    <h2>This is the headline about the article</h2>
+    <h2>Revealing Voices</h2>
     <div class="head-info"><span class="byline">By Blaine Ohigashi</span> • <span class="date">October 21, 2013</span></div>
   </div>
   
@@ -64,7 +64,7 @@
     </div>
     <div class="large-12 columns">
       <div id="quote4" class="quote">
-        <span class="lquote">&ldquo;</span>If they start talking shit, I just leave the place. I have nothing to say. … Maybe they say, ‘Look at this girl, as beautiful as she is, perfectly fair woman, what is it that you find in that?’ … they sometimes say we are satanic.’<span class="rquote">&rdquo;</span>
+        <span class="lquote">&ldquo;</span>Maybe they say, ‘Look at this girl, as beautiful as she is, perfectly fair woman, what is it that you find in that?’ … they sometimes say we are satanic.<span class="rquote">&rdquo;</span>
         <span class="credit">— Madaliso</span>
       </div>
     </div>
