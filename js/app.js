@@ -374,81 +374,98 @@ $(document).ready(function(){
   })
   
   // Make the graphs in D3
+  
+  // Let's get the data in the format [country1_funding_percap_2009, country2_funding_percap_2009, ...], [2010...]
+  var funding_data_percap = [];
+  funding_data_percap[0] = [], funding_data_percap[1] = [], funding_data_percap[2] = [], funding_data_percap[3] = [];
   var i = 0;
-  var data = [];
-  for (year in USFUNDING_DATA['MW']['data'])
+  for (country in USFUNDING_DATA)
   {
-    data[i] = USFUNDING_DATA['MW']['data'][year]['funding'] / USFUNDING_DATA['MW']['data'][year]['population'];
+    for (year in USFUNDING_DATA[country]['data'])
+    {
+      // 2009
+      funding_data_percap[0][i] = USFUNDING_DATA[country]['data']['2009']['funding'] / USFUNDING_DATA[country]['data']['2009']['population'];
+      // 2010
+      funding_data_percap[1][i] = USFUNDING_DATA[country]['data']['2010']['funding'] / USFUNDING_DATA[country]['data']['2010']['population'];
+      // 2011
+      funding_data_percap[2][i] = USFUNDING_DATA[country]['data']['2011']['funding'] / USFUNDING_DATA[country]['data']['2011']['population'];
+      // 2012
+      funding_data_percap[3][i] = USFUNDING_DATA[country]['data']['2012']['funding'] / USFUNDING_DATA[country]['data']['2012']['population'];
+      
+    }
     i++;
   }
-  console.log(data);
+  var data = funding_data_percap;
   
-  var w = 100,
-  h = 300,
-  margin = 20,
-  y = d3.scale.linear().domain([d3.min(data), d3.max(data)]).range([0+margin, h-margin])
-  x = d3.scale.linear().domain([0, data.length]).range([0+margin, w-margin]);
-  
-  var viz = d3.select('body')
-              .append("svg:svg")
-              .attr("width", w)
-              .attr("height", h);
-  
-  var g = viz.append("svg:g")
-              .attr("transform", "translate(0, 200)");
-  
-  var line = d3.svg.line()
-      .x(function(d,i) { return x(i); })
-      .y(function(d) { return -1 * y(d); })
-  
-  g.append("svg:path").attr("d", line(data));
-  
-  g.append("svg:line")
-      .attr("x1", x(0))
-      .attr("y1", -1 * y(0))
-      .attr("x2", x(w))
-      .attr("y2", -1 * y(0))
- 
-  g.append("svg:line")
-      .attr("x1", x(0))
-      .attr("y1", -1 * y(0))
-      .attr("x2", x(0))
-      .attr("y2", -1 * y(d3.max(data)))
-      
-  g.selectAll(".xLabel")
-      .data(x.ticks(5))
-      .enter().append("svg:text")
-      .attr("class", "xLabel")
-      .text(String)
-      .attr("x", function(d) { return x(d) })
-      .attr("y", 0)
-      .attr("text-anchor", "middle")
+	// define dimensions of graph
+	var m = [80, 80, 80, 80]; // margins
+	var w = 1000 - m[1] - m[3];	// width
+	var h = 400 - m[0] - m[2]; // height
+		
+		
+	var x = d3.time.scale().domain([2009, 2012]).range([0, w]);
+	// Y scale will fit values from 0-10 within pixels h-0 (Note the inverted domain for the y-scale: bigger is up!)
+	var y = d3.scale.linear().domain([0, d3.max(data, function(d) { return d[1]; })]).range([h, 0]);
 
-  g.selectAll(".yLabel")
-      .data(y.ticks(4))
-      .enter().append("svg:text")
-      .attr("class", "yLabel")
-      .text(String)
-      .attr("x", 0)
-      .attr("y", function(d) { return -1 * y(d) })
-      .attr("text-anchor", "right")
-      .attr("dy", 4)
-      
-  g.selectAll(".xTicks")
-      .data(x.ticks(5))
-      .enter().append("svg:line")
-      .attr("class", "xTicks")
-      .attr("x1", function(d) { return x(d); })
-      .attr("y1", -1 * y(0))
-      .attr("x2", function(d) { return x(d); })
-      .attr("y2", -1 * y(-0.3))
+	// create a line function that can convert data[] into x and y points
+	var line1 = d3.svg.line()
+		// assign the X function to plot our line as we wish
+		.x(function(d,i) { 
+			// verbose logging to show what's actually being done
+			//console.log('Plotting X value for data point: ' + d + ' using index: ' + i + ' to be at: ' + x(i) + ' using our xScale.');
+			// return the X coordinate where we want to plot this datapoint
+			return x(startTime.getTime() + (timeStep*i)); 
+		})
+		.y(function(d) { 
+			// verbose logging to show what's actually being done
+			//console.log('Plotting Y value for data point: ' + d + ' to be at: ' + y(d) + " using our yScale.");
+			// return the Y coordinate where we want to plot this datapoint
+			return y(d[0]); // use the 1st index of data (for example, get 20 from [20,13])
+		})
+		
+		var line2 = d3.svg.line()
+			// assign the X function to plot our line as we wish
+			.x(function(d,i) { 
+				// verbose logging to show what's actually being done
+				//console.log('Plotting X value for data point: ' + d + ' using index: ' + i + ' to be at: ' + x(i) + ' using our xScale.');
+				// return the X coordinate where we want to plot this datapoint
+				return x(startTime.getTime() + (timeStep*i)); 
+			})
+			.y(function(d) { 
+				// verbose logging to show what's actually being done
+				//console.log('Plotting Y value for data point: ' + d + ' to be at: ' + y(d) + " using our yScale.");
+				// return the Y coordinate where we want to plot this datapoint
+				return y(d[1]); // use the 2nd index of data (for example, get 13 from [20,13])
+			})
 
-  g.selectAll(".yTicks")
-      .data(y.ticks(4))
-      .enter().append("svg:line")
-      .attr("class", "yTicks")
-      .attr("y1", function(d) { return -1 * y(d); })
-      .attr("x1", x(-0.3))
-      .attr("y2", function(d) { return -1 * y(d); })
-      .attr("x2", x(0))
+
+		// Add an SVG element with the desired dimensions and margin.
+		var graph = d3.select("#graph").append("svg:svg")
+		      .attr("width", w + m[1] + m[3])
+		      .attr("height", h + m[0] + m[2])
+		    .append("svg:g")
+		      .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+		// create yAxis
+		var xAxis = d3.svg.axis().scale(x).tickSize(-h).tickSubdivide(1);
+
+		// Add the x-axis.
+		graph.append("svg:g")
+		      .attr("class", "x axis")
+		      .attr("transform", "translate(0," + h + ")")
+		      .call(xAxis);
+
+
+		// create left yAxis
+		var yAxisLeft = d3.svg.axis().scale(y).ticks(6).orient("left");
+		// Add the y-axis to the left
+		graph.append("svg:g")
+		      .attr("class", "y axis")
+		      .attr("transform", "translate(-10,0)")
+		      .call(yAxisLeft);
+		
+			// add lines
+			// do this AFTER the axes above so that the line is above the tick-lines
+  		graph.append("svg:path").attr("d", line1(data)).attr("class", "data1");
+  		graph.append("svg:path").attr("d", line2(data)).attr("class", "data2");
 });
