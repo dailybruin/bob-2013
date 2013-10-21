@@ -36,6 +36,20 @@ $(document).ready(function(){
   });
 });
 
+/* Thanks http://www.mredkj.com/javascript/nfbasic.html */
+function addCommas(nStr)
+{
+	nStr += '';
+	x = nStr.split('.');
+	x1 = x[0];
+	x2 = x.length > 1 ? '.' + x[1] : '';
+	var rgx = /(\d+)(\d{3})/;
+	while (rgx.test(x1)) {
+		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	}
+	return x1 + x2;
+}
+
 var TOOLTIP_TIMER;
 function showTooltip()
 {
@@ -411,6 +425,7 @@ $(document).ready(function(){
         $(this).children('div').css('background-color', USFUNDING_COLORS[USFUNDING_DATA[$(this).data('country-bar')]['hlegality']]);
       }
       $(this).hover(function(){
+        $('#hover-container').text("$"+addCommas(USFUNDING_DATA[$(this).data('country-bar')]['data'][newyear]['funding']));
         showTooltip();
       }, function(){
         hideTooltip();
