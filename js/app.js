@@ -408,14 +408,14 @@ function usfunding_selectcountry(countrycode)
   $('#graphic-usfunding .mapcontainer [country_code='+ countrycode +']').attr('class','selected');
   $('#graphic-usfunding .right-data[data-country-bar='+ countrycode +']').addClass('selected');
   $('#graphic-usfunding .left-label[data-country-code='+ countrycode + ']').addClass('selected');
-  
+  $('#graphic-usfunding .chart1container svg [country_code='+ countrycode +']').attr('class','selected');
 }
 function usfunding_deselectcountry(countrycode)
 {
   $('#graphic-usfunding .mapcontainer [country_code='+ countrycode +']').attr('class','');
   $('#graphic-usfunding .right-data[data-country-bar='+ countrycode +']').removeClass('selected');
   $('#graphic-usfunding .left-label[data-country-code='+ countrycode + ']').removeClass('selected');
-  
+  $('#graphic-usfunding .chart1container svg [country_code='+ countrycode +']').attr('class','');
 }
 
 $(document).ready(function(){

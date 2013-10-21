@@ -510,6 +510,10 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   width:100%;
 }
 
+#graphic-usfunding .chart1container svg g.selected line, #graphic-usfunding .chart1container svg g line.selected {
+  stroke:red !important;
+}
+
 #graphic-usfunding .chart2container {
   float:right;
   width:45%;
