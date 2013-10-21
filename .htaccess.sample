@@ -1,6 +1,16 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteCond %{REMOTE_ADDR} ^41\.70\. [OR]
+RewriteCond %{REMOTE_ADDR} ^41\.75\. [OR]
+RewriteCond %{REMOTE_ADDR} ^41\.87\. [OR]
+RewriteCond %{REMOTE_ADDR} ^41\.221\. [OR]
+RewriteCond %{REMOTE_ADDR} ^105\.234\. [OR]
+RewriteCond %{REMOTE_ADDR} ^196\.220\. [OR]
+RewriteCond %{REMOTE_ADDR} ^197\.211\. [OR]
+RewriteCond %{REMOTE_ADDR} ^197\.220\.
+RewriteRule ^img/photo/(.*)$ img/photo2/$1 [NC,L]
+
 # Only allow access to css, img, and js directories
 RewriteRule ^css/    -   [L]
 RewriteRule ^img/    -   [L]
