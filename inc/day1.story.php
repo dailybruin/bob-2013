@@ -54,12 +54,18 @@
       Etiam facilisis tortor non dui hendrerit fermentum. Aenean dignissim enim id pretium consectetur. Vivamus tempus odio nec tellus fringilla eleifend. In sed velit convallis massa blandit consequat at ac dolor. Ut a massa odio. Suspendisse potenti. Phasellus a leo metus. Proin ut lacus sodales, pellentesque arcu sed, varius turpis. Cras dignissim interdum odio, ultricies placerat nisi.
       </p>
       <p>
-      Phasellus eget molestie neque, non faucibus leo. Donec eleifend sed nisl mollis ornare. Donec porta tempor nulla. Aenean eu fringilla nulla. Curabitur felis lorem, pharetra at vestibulum sed, elementum sed magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras id semper enim. Nunc arcu justo, eleifend nec nulla condimentum, commodo commodo elit. Vestibulum adipiscing sollicitudin nisl, at rhoncus justo egestas eget. Aliquam felis lectus, bibendum quis sagittis ut, blandit ac enim. Proin feugiat ligula sed libero hendrerit faucibus. Cras rhoncus, mi at venenatis viverra, neque justo lobortis est, vel tempor sem urna et tortor. Nunc tristique pellentesque metus, sit amet fringilla eros posuere ac.
+      Phasellus eget molestie neque, non faucibus leo. Donec eleifend sed nisl mollis ornare. Donec porta tempor nulla. Aenean eu fringilla nulla. Curabitur felis lorem, pharetra at vestibulum sed, elementum sed magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras id semper enim. Nunc arcu justo, eleifend nec nulla condimentum, commodo commodo elit.</p>
+      <p>Vestibulum adipiscing sollicitudin nisl, at rhoncus justo egestas eget. Aliquam felis lectus, bibendum quis sagittis ut, blandit ac enim. Proin feugiat ligula sed libero hendrerit faucibus. Cras rhoncus, mi at venenatis viverra, neque justo lobortis est, vel tempor sem urna et tortor. Nunc tristique pellentesque metus, sit amet fringilla eros posuere ac.
       </p>
     </div>
     <div class="large-2 columns"> </div>
   </div><!-- end div.row -->
-    
+  
+  <div class="graphic" id="graphic-usfunding">
+    <div class="mapcontainer"></div>
+  </div><!-- end div#graphic-usfunding -->
+  
+<?php /*      
   <aside class="pull-quote parallax">
     <div class="quote">
       This is the first day of the trip. And this is a pull quote. Put things here.
@@ -73,6 +79,7 @@
       </span>
     </div>
   </aside>
+*/?>
     
   <div class="row">
     <div class="large-6 large-offset-3 columns story">
@@ -92,4 +99,3 @@
   <span class="shorttitle">AIDS research in Malawi</span>
 </a>
 <div class="clear"></div>
-
