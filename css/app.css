@@ -15,6 +15,10 @@ header.chapter-two #package-title {
   top: 65px;
 }
 
+.story {
+  margin-top:20px;
+}
+
 a {
   color:#879C04;
 }

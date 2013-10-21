@@ -7,22 +7,7 @@
       <span class="shorttitle">Looking for Light</span>
     </a>
   </div>
-    
-  <div class="edinote">
-    <div class="row">
-      <div class="large-12">
-        <h4>Editor's note</h4>
-        <div class="edinote-note">
-          <p>The Daily Bruin published a three-part series on a UCLA and UC Irvine student service group that travels to Vietnam each year to carry out educational and medical missions.</p>
-          <p>The on-site reporting was made possible by the Bridget O’Brien Scholarship Foundation, now in its fourth year of funding student journalism at UCLA with global reach and local consequence.
-          <p>This year’s recipients, Sean Greene and Morgan Glier, spent 12 days in Vietnam with the student group Medical, Educational Missions and Outreach, to tell the stories of the volunteers and those they help.</p>
-          <p>They conducted many interviews in Vietnamese that were translated into English by paid professionals. In line with cultural practices, the reporters accepted meals provided by sources.</p>
-          <p>Some Vietnamese names and words had to be simplified and so appear without certain accent marks.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
+      
   <div class="row">
     <div class="large-7 large-offset-3 columns story story-drop">
       <p>Clad in a long white and yellow dress with a gold skirt underneath, her hair in a buzz cut, the lecturer faces a packed room of about 70 Malawian college students.</p>
@@ -62,7 +47,7 @@
       <p>So Nyirenda and two friends interviewed locals and national leaders about their opinions.</p>
       <p>In her afternoon lecture, Kabwila brings the kind of discussion Mwiza sought in his video to the classroom. The discussion between the students and Kabwila has been generally light, punctuated by laughter.</p>
       <p>But Kabwila returns to the question of the intersexed child.</p>
-      <p>“Where does the child go?” she asks. “I know people laugh about these things. But my friends, sexuality is not a joke.”</p>
+      <p>“Where does the child go?” she asks. “I know people laugh about these things. But my friends, sexuality is not a joke.” ■</p>
     </div><!-- end div.large-6 -->
   </div><!-- end div.row -->
 </article>
