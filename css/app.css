@@ -888,6 +888,13 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     width: 100%;
     margin: 0;
     padding: 10px;
+    box-sizing:border-box;
+  }
+  figure figcaption .credit {
+    margin-top: 5px;
+  }
+  #graphic-places {
+    overflow:hidden;
   }
 }
 
