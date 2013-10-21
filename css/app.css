@@ -999,6 +999,16 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     margin-top: 11px;
     line-height: 1.5;
   }
+  #profiles #quote10 {
+    text-align:center;
+    font-size:1.8em;
+    margin-top:30px;
+  }
+  #profiles #quote11 {
+    text-align:center;
+    font-size:1.7em;
+    margin-top:30%;
+  }
 }
 
 /* Used to alter styles for screens at least 1280px wide. */
