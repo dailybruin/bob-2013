@@ -483,3 +483,57 @@ $(document).ready(function(){
   })
   
 });
+
+// Place profiles
+$(document).ready(function(){
+  function switchToPlace(newcity) {
+    $('#graphic-places .mapcontainer [city_name]').attr('class','');
+    $('#graphic-places .mapcontainer [city_name='+newcity+']').attr('class','selected');
+    $('#graphic-places .cities-container > div').removeClass('active');
+    $('#graphic-places .cities-container > div#'+newcity).addClass('active');
+  }
+  
+  $('#graphic-places .mapcontainer').load("/img/day1/malawi.svg", function(){
+    $('#graphic-places .mapcontainer [city_name]').each(function(){
+      $(this).css('cursor','pointer');
+      $(this).click(function(){
+        switchToPlace($(this).attr('city_name'));
+      })
+    })
+  });
+});
+
+// Sliders
+$(document).ready(function(){
+  $('.slider-buttons a').click(function(e){
+    e.preventDefault();
+    var slider = $(this).parent('.slider-buttons').next();
+    if($(this).hasClass('next'))
+    {
+      if($(this).hasClass('disabled')) return;
+      $(this).siblings('.prev').removeClass('disabled');
+      var cur = slider.children('li.active');
+      
+      cur.removeClass('active');
+      cur.next().addClass('active');
+      if(cur.next().next().length == 0)
+      {
+        $(this).addClass('disabled');
+      }
+    }
+    else
+    {
+      if($(this).hasClass('disabled')) return;
+      $(this).siblings('.next').removeClass('disabled');
+      var cur = slider.children('li.active');
+      
+      cur.removeClass('active');
+      cur.prev().addClass('active');
+      if(cur.prev().prev().length == 0)
+      {
+        $(this).addClass('disabled');
+      }
+      
+    }
+  })
+});

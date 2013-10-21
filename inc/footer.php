@@ -26,7 +26,6 @@
   }
   </script>
     
-  
   <script src="<?php echo SITE_URL ?>js/foundation.min.js"></script>
   
   <script src="<?php echo SITE_URL ?>js/app.js"></script>

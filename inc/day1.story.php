@@ -61,7 +61,49 @@
     <div class="large-2 columns"> </div>
   </div><!-- end div.row -->
   
-    
+  
+  <div class="graphic" id="graphic-places">
+    <div class="intro">Click on a city to learn more</div>
+    <div class="mapcontainer"></div>
+    <div class="cities-container">
+      <div id="blantyre" class="active">
+        <h4>Blantyre</h4>
+        <span class="cities-desc">The city of Blantyre is the commercial and financial center of Malawi, as well as the capital city of the southern region of the country. The city is densely populated and is home to many of Malawi’s universities.</span>
+        <div class="slider-buttons">
+          <a class="prev disabled" href="#">← Prev</a>
+          <a class="next" href="#">Next →</a>
+        </div>
+        <ul class="slider">
+          <li class="active"><img src="/img/day1/places/Zomba/01.Zomba.JPG" /></li>
+          <li><img src="/img/day1/places/Zomba/02.Zomba.JPG" /></li>
+        </ul>
+      </div>
+      <div id="lilongwe">
+        <h4>Lilongwe</h4>
+        <span class="cities-desc">Malawi’s capital and the country’s largest city, Lilongwe is located in the central region of the country. It is home to a maze of districts boasting bustling markets and houses most of the foreign diplomats in the country. The country celebrated its 49th year of independence on July 6, with performances and sporting events in the city.</span>
+      </div>
+      <div id="mangochi">
+        <h4>Mangochi</h4>
+        <span class="cities-desc">This area in the southern region of the country lies near Lake Malawi. Mangochi is home to many small fishing villages.</span>
+      </div>
+      <div id="mulanje">
+        <h4>Mulanje</h4>
+        <span class="cities-desc">Mulanje is a mountain town located in the southern region of Malawi, approximately 40 miles southeast of Blantyre. The town is known for its tea plantations and Mount Mulanje, with an elevation of over 9,800 feet.</span>
+      </div>
+      <div id="mzuzu">
+        <h4>Mzuzu</h4>
+        <span class="cities-desc">Mzuzu is the capital city of Malawi’s northern region. The city is famous for its coffee.</span>
+      </div>
+      <div id="zomba">
+        <h4>Zomba</h4>
+        <span class="cities-desc">Located in the southern region of Malawi, Zomba was the original capital of the country under British colonial rule. The lush, hilly city features the Zomba Plateau, which rises more than 5,900 feet above the city and the surrounding areas.</span>
+      </div>
+      
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+<?php /*  
   <aside class="pull-quote parallax">
     <div class="quote">
       This is the first day of the trip. And this is a pull quote. Put things here.
@@ -75,7 +117,8 @@
       </span>
     </div>
   </aside>
-    
+*/ ?>
+  
   <div class="row">
     <div class="large-6 large-offset-3 columns story">
       <p>

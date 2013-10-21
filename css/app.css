@@ -18,6 +18,53 @@ a:visited {
   display:block;
 }
 
+.slider { position: relative; overflow: auto; margin-top:14px; }
+    .slider li { list-style: none; }
+        .slider ul li { float: left; }
+
+.slider-buttons + .slider {
+  margin-top:0;
+}
+
+.slider li img {
+  max-height:500px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+.slider li {
+  display:none;
+}
+.slider li.active {
+  display:block;
+}
+
+.slider-buttons {
+  margin-top:15px;
+  text-align:right;
+}
+
+.slider-buttons a {
+  display: inline-block;
+  padding: 5px;
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  user-select:none;
+}
+.slider-buttons a.prev {
+  background-color:#ddd;
+  font-weight:normal;
+  color:#333;
+}
+.slider-buttons a.disabled {
+  opacity:0.4;
+  cursor:default;
+}
+
 #not-found {
   text-align:center;
   font-family: Georgia, serif;
@@ -698,6 +745,55 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
 #profiles .photo-khumbo {
   padding-bottom:30px;
 }
+
+#graphic-places .mapcontainer {
+  height: 500px;
+  width: 30%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-sizing: content-box;
+  margin-left: 20px;
+  float:left;
+}
+#graphic-places .mapcontainer svg {
+  width:100%;
+  height:100%;
+}
+#graphic-places .mapcontainer svg .selected, #graphic-places .mapcontainer svg .selected path, #graphic-places .mapcontainer svg .selected rect {
+  fill:#879c04 !important;
+}
+#graphic-places .mapcontainer svg .selected text, #graphic-places .mapcontainer svg .selected text tspan {
+  fill:white !important;
+}
+
+#graphic-places .cities-container {
+  float:left;
+  margin-left:20px;
+  width:60%;
+}
+
+#graphic-places .cities-container > div {
+  display:none;
+}
+#graphic-places .cities-container > div.active {
+  display:block;
+}
+
+#graphic-places .cities-container h4 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 2.3em;
+  margin-bottom:0;
+}
+#graphic-places .cities-desc {
+  font-family: Georgia, serif;
+}
+#graphic-places .intro {
+  display: block;
+  margin-left: 50px;
+  padding-top: 12px;
+}
+
 
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
