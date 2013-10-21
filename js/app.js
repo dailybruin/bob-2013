@@ -458,9 +458,24 @@ $(document).ready(function(){
       });
     });
   }
+  
+  $('#graphic-usfunding .chart2container .left-label').hover(function(){
+    usfunding_selectcountry($(this).data('country-code'));
+  }, function(){
+    usfunding_deselectcountry($(this).data('country-code'));
+  });
     
   $('#graphic-usfunding .chart1container').load("/img/day2/line_funding.svg", function(){
     usfunding_changeyear("2012", true);
+    $('#graphic-usfunding .chart1container [country_code]').hover(function(){
+      $('#hover-container').text($(this).attr('country_name'));
+      showTooltip();
+      usfunding_selectcountry($(this).attr('country_code'));
+    }, function(){
+      $('#hover-container').text($(this).attr('country_name'));
+      hideTooltip();
+      usfunding_deselectcountry($(this).attr('country_code'));
+    })
   });
   
   $('#graphic-usfunding .changeyear').change(function(){
