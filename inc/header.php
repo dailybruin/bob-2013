@@ -25,28 +25,22 @@
 </head>
 <body>
     
-  <header>
+  <header class="<?php echo $cur_part; ?>">
     <a href="http://dailybruin.com" id="nameplate">
       <img src="<?php echo SITE_URL ?>img/gen/nameplate.svg" alt="Daily Bruin" />
     </a>
     
     <h1 id="package-title"><span id="package-title-first">In the</span> <span id="package-title-last">Shadows</span></h1>
     
-    <div class="caption-rollover closed">
-      <a href="#" class="caption-button">i</a>
-      <span class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis massa, ornare id mattis sed, feugiat et augue. In ullamcorper est nunc. Morbi volutpat porta varius. Suspendisse tincidunt non ligula sed auctor. Vivamus dictum erat in leo iaculis mattis. Ut accumsan massa sed nibh volutpat, id fringilla est viverra.
-        <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-      </span>
-    </div>
   </header>
   
   <nav>
     <ul>
-      <li class="active"><a href="#" data-dropdown="part1">Part One</a></li>
-      <li><a href="#">Part Two</a></li>
-      <li class="disabled"><a href="#">Part Three</a></li>
-      <li class="disabled"><a href="#">Columns</a></li>
-      <li class="disabled"><a href="#">Photo Essay</a></li>
+      <li <?php if ($cur_part == 'chapter-one'): ?>class="active"<?php endif; ?>><a href="/" >Chapter One</a></li>
+      <li class="disabled"><a href="#" data-dropdown="part2">Chapter Two (Tuesday)</a></li>
+      <li class="disabled"><a href="#">Chapter Three (Wednesday)</a></li>
+      <li class="disabled"><a href="#">Columns (Wednesday)</a></li>
+      <li <?php if ($cur_part == 'photos'): ?>class="active"<?php endif; ?>><a href="/photos/revealing-voices">Photo Essay</a></li>
     </ul>
   </nav>
   <div class="dropdowns">

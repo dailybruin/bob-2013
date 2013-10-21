@@ -1,10 +1,10 @@
   <footer>
     <ul class="footer-links">
-      <li><a href="#">Part One</a></li>
-      <li><a href="#">Part Two</a></li>
+      <li><a href="/">Part One</a></li>
+      <li class="disabled"><a href="#">Part Two</a></li>
       <li class="disabled"><a href="#">Part Three</a></li>
       <li class="disabled"><a href="#">Columns</a></li>
-      <li class="disabled"><a href="#">Photo Essay</a></li>
+      <li><a href="/photos/revealing-voices/">Photo Essay</a></li>
     </ul>
     
     <a href="http://dailybruin.com" id="footer-nameplate">

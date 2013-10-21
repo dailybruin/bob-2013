@@ -2,6 +2,10 @@ body {
   background-color:#ececec;
 }
 
+header.chapter-one {
+  background-image: url('../img/day1/header.jpg');
+}
+
 a {
   color:#879C04;
 }
@@ -10,6 +14,22 @@ a:hover, a:focus {
 }
 a:visited {
   color:#631092;
+}
+
+li.disabled {
+  opacity:0.3;
+  border-top:none !important;
+  font-family:Georgia, serif;
+}
+li.disabled a {
+  cursor:default;
+  border-top:none !important;
+  text-transform:none;
+  font-style:italic;
+}
+
+.footer-links .disabled {
+  display:none;
 }
 
 .clear {
@@ -790,8 +810,9 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
 }
 #graphic-places .intro {
   display: block;
-  margin-left: 50px;
+  margin-left: 100px;
   padding-top: 12px;
+  font-weight: bold;
 }
 
 

@@ -1,21 +1,21 @@
 <?php include('config.php'); 
 
 $stories = array(
-  "DEFAULT" => "dayone",
-  "dayone" => array(
-    "DEFAULT" => "storyone",
+  "DEFAULT" => "chapter-one",
+  "chapter-one" => array(
+    "DEFAULT" => "a-battle-for-care",
     "RELEASE" => "10/16/2013 3:50AM",
-    "storyone" => "inc/day1.story.php"
+    "a-battle-for-care" => "inc/day1.story.php"
   ),
-  "daytwo" => array(
+  "chapter-two" => array(
     "DEFAULT" => "storytwo",
     "RELEASE" => "10/16/2013 3:30AM",
     "storytwo" => "inc/day2.story2.php"
   ),
   "photos" => array(
-    "DEFAULT" => "profiles",
+    "DEFAULT" => "revealing-voices",
     "RELEASE" => "10/16/2013 3:30AM",
-    "profiles" => "inc/photos.profiles.php"
+    "revealing-voices" => "inc/photos.profiles.php"
   ),
 );
 
