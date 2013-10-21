@@ -14,6 +14,10 @@ header.chapter-two {
 header.chapter-two #package-title {
   top: 65px;
 }
+header.chapter-three {
+  background-image: url('../img/day3/header.jpg');
+}
+
 
 .story {
   margin-top:20px;

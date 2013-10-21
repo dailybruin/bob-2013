@@ -11,7 +11,7 @@ $stories = array(
     )
   ),
   "chapter-two" => array(
-    "DEFAULT" => "storytwo",
+    "DEFAULT" => "looking-for-light",
     "RELEASE" => "10/22/2013 12:00AM",
     "looking-for-light" => array(
       "file" => "inc/day2.story1.php",
@@ -20,6 +20,26 @@ $stories = array(
     "turning-taboos-into-talking-points" => array(
       "file" => "inc/day2.story2.php",
       "title" => "Turning taboos into talking points"
+    )
+  ),
+  "chapter-three" => array(
+    "DEFAULT" => "on-the-fringes",
+    "RELEASE" => "10/23/2013 12:00AM",
+    "on-the-fringes" => array(
+      "file" => "inc/day3.story1.php",
+      "title" => "On the Fringes"
+    ),
+    "women" => array(
+      "file" => "inc/day3.story2.php",
+      "title" => "???"
+    )
+  ),
+  "columns" => array(
+    "DEFAULT" => "blaine-sonali",
+    "RELEASE" => "10/23/2013 12:00AM",
+    "blaine-sonali" => array(
+      "file" => "inc/columns.php",
+      "title" => "Columns"
     )
   ),
   "photos" => array(
