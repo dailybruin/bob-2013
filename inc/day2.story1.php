@@ -27,6 +27,13 @@
     <div class="large-7 columns story story-drop">
       <p>They are tucked into residential neighborhoods, protected by high walls and gates, or hidden off of side streets – in these buildings Malawian men and women are free to tease each other about their latest crush, to declare their goals and hopes for the future of lesbian, gay, bisexual and transgender rights.</p>
       <p>The offices of the Centre for the Development of People, the country’s primary gay rights organization, are one part of a calculated approach that activists are taking to increase rights for LGBT people in a country where homosexuality is not only illegal but heavily stigmatized. </p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.CEDEP.sign.picA.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          A billboard greets drivers along the M1, Malawi's primary north-south highway. The sign hosts pictures of activists, lawyers, medical professionals and other community leaders who support LGBT right.
+        </figcaption>
+      </figure>
       <p>Activists from the organization, also known as CEDEP, use HIV/AIDS funding to conduct research, education and health care for the LGBT community, while trying to convince the public and other stakeholders that there are health benefits to decriminalization.</p>
       <p>CEDEP was founded in 2005 by a group of men who realized that there was no Malawian organization to help the LGBT community, especially in terms of HIV/AIDS care, said Gift Trapence, the organization’s director.</p>
       <p>Malawi is a small country squeezed into southeastern Africa, and one of 76 countries worldwide that outlaws homosexuality. Men face up to 14 years of hard labor in prison for violating the law, and women face up to five years in prison.</p>
@@ -109,6 +116,7 @@
   </div><!-- end div#graphic-usfunding -->
   <div class="row">
     <div class="large-7 large-offset-3 columns story">
+      <img src="<?php echo SITE_URL ?>img/day2/10.23.copyedited.BOB.McKay.edit3.ai.jpg" id="mckay-graphic" />
       <p>LGBT activists in other countries are using this argument as well – MSM worldwide are 19 times more likely to contract HIV than the general population, and many are also having sex with women in countries like Malawi where homosexuality is outlawed. </p>
       <p>Plus, most people agree that everyone has a right to health services, said Patrick Brenny, who is a former Malawi director for the Joint United Nations Programme on HIV/AIDS, or UNAIDS. He was the Malawi director until July of this year, and moved to Tanzania in August.</p>
       <p>“There is the public health approach that says anyone who needs a service should get it,” Brenny said. “And no one argues about that.”</p>
@@ -123,8 +131,26 @@
       <p>Most Malawians McKay surveyed said they would not want “homosexuals as neighbors.”</p>
       <p>LGBT activists’ long-term goal is to eliminate social stigma against the LGBT community. They do recognize that the transition will be a slow one, and it will likely be many years until LGBT people are accepted. </p>
       <p>But HIV/AIDS funding has potential human rights implications.</p>
+    </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day2/10.Header.JPG')">
+    <div class="quote" style="padding:0">
+      There is the public health approach that says anyone who needs a service should get it. And no one argues about that.
+      <span class="quote-credit">— Patrick Brenny</span>
+    </div><!-- end div.quote -->
+  </aside>
+
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p><strong>A vulnerable state</strong></p>
       <p>On an evening in June, two men finished their drinks at a local bar in northern Malawi. </p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.bar.picA.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          Bars, like this one in a northern Malawian town, are a common meeting place in small towns and villages.
+        </figcaption>
+      </figure>
       <p>It was like most bars in the country’s small towns and villages – the counter is large enough for a few people to stand by, and most patrons sit outside, surrounded by a makeshift fence of mismatched wooden sticks protruding from the ground.</p>
       <p>It’s the kind of place where you can find people drinking at every hour, with company or completely alone, shelling out around 50 kwacha (about 15 U.S. cents) for a small, sealed plastic bag filled with clear liquid that’s 40 percent alcohol.</p>
       <p>One of those men, who asked to be called Copro, told me his story in July. He spoke in Chichewa, the most common language in Malawi, and a representative from CEDEP translated.</p>
@@ -141,6 +167,13 @@
       <p>Stories like Copro’s happen in remote places, and the only way that larger organizations like CEDEP find out is through the networks of peer educators – mostly gay men – that they have developed throughout the country. </p>
       <p>These networks are often established using HIV/AIDS funding, because peer educators are tasked with spreading HIV/AIDS prevention messages. In the absence of open forums, they are the ones who often carry out programs that directly impact LGBT lives. </p>
       <p>They meet in bars to discuss HIV prevention, they distribute free condoms and lubrication from CEDEP, they find MSM to participate in studies and gain access to services.</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.Gift.picA.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          Gift Trapence is the director of the Centre for the Development of People, Malawi's primary LGBT rights organization.
+        </figcaption>
+      </figure>
       <p>As of July, there were about 80 peer educators throughout the country. </p>
       <p>Trapence said the peer education model is the most efficient way to connect one of the country’s most hidden populations, because the men already trust each other. They can pass information to former and current partners, or friends of those partners.</p>
       <p>But the peer educators are volunteers, many unemployed, and they function on a very small stipend for communication and transportation, Trapence said.</p>
@@ -155,6 +188,16 @@
       <p>He knew then that’s what he was.</p>
       <p>At the time, he thought he was the only gay person in all of Malawi, he said. Two years later, he and a friend at his boarding school slept in the same bed and kissed.</p>
       <p>They thought they were the only two gay people in the country.</p>
+    </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day2/04.Header.JPG')">
+    <div class="quote" style="padding:0">
+      They told me it’s very wrong to be a Christian and be gay at the same time. They told me to change.
+      <span class="quote-credit">— Fortune</span>
+    </div><!-- end div.quote -->
+  </aside>
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p>The perception that homosexuality does not exist in Malawi is a common one, McKay said. Her data shows that more than 75 percent of Malawians either agreed or strongly agreed that “homosexuality is a Western invention.”</p>
       <p>Fortune was fired from the Christian radio station where he worked from 2003 until 2006. He chose to be honest about his orientation when he was hired, and thus began three years of conversion efforts.</p>
       <p>“They told me it’s very wrong to be a Christian and be gay at the same time,” Fortune said. “They told me to change.”</p>
