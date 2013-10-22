@@ -1,4 +1,9 @@
-<?php include('config.php'); 
+<?php include('config.php');
+
+if($_SERVER["REMOTE_ADDR"] == "128.97.253.249")
+{
+  define("DEBUG", true);
+}
 
 $stories = array(
   "DEFAULT" => "chapter-one",
