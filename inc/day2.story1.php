@@ -168,7 +168,7 @@
       <p>These networks are often established using HIV/AIDS funding, because peer educators are tasked with spreading HIV/AIDS prevention messages. In the absence of open forums, they are the ones who often carry out programs that directly impact LGBT lives. </p>
       <p>They meet in bars to discuss HIV prevention, they distribute free condoms and lubrication from CEDEP, they find MSM to participate in studies and gain access to services.</p>
       <div class="flex-video">
-        <iframe width="420" height="315" src="//www.youtube.com/embed/WUPXKK23ty4" frameborder="0" allowfullscreen></iframe>
+        <iframe width="420" height="315" src="//www.youtube.com/embed/LHCAGn9RRXQ" frameborder="0" allowfullscreen></iframe>
       </div>
       <p>As of July, there were about 80 peer educators throughout the country. </p>
       <p>Trapence said the peer education model is the most efficient way to connect one of the country’s most hidden populations, because the men already trust each other. They can pass information to former and current partners, or friends of those partners.</p>
