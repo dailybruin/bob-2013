@@ -37,8 +37,7 @@
       <p>She earned national acclaim as an advocate for universities and educational reform, and is now an outspoken advocate for lesbian, gay, bisexual and transgender rights. She has enough political capital, she said, that people respect her even if she’s talking about a taboo subject like LGBT rights.</p>
       <p>She uses this capital to influence the mindset of Malawi’s next set of leaders and policymakers – college students.</p>
       <p>As a lecturer at Chancellor College in Zomba, a city in the southern region of the country, Kabwila addresses gay rights though many in the Malawian university system shy away from it.</p>
-      <p>In a recent lecture, she combined gender theory with colonial theory to introduce the class’</p>
-      <p> next book, “Half of a Yellow Sun,” a war novel by Nigerian author Chimamanda Ngozi Adichie.</p>
+      <p>In a recent lecture, she combined gender theory with colonial theory to introduce the class’ next book, “Half of a Yellow Sun,” a war novel by Nigerian author Chimamanda Ngozi Adichie.</p>
       <p>Kabwila goes on to tell the class that both women and men are made; their genders are a construct of societal and familial expectations, among other things.</p>
       <p>“What if I am transgender?” she asks those who think a woman is born. </p>
       <p>She brings up the example of an intersexed Malawian child who did not know which bathroom to use and stopped attending school after facing ridicule. Intersexed people are born with both male and female sexual organs.</p>
