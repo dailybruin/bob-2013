@@ -59,5 +59,12 @@
       <li><a href="/chapter-two/looking-for-light/">Community</a></li>
       <li><a href="/chapter-two/turning-taboos-into-talking-points/">Education</a></li>
     </ul>
+    <?php /*
+    <ul id="part3" class="f-dropdown" data-dropdown-content>
+      <li><a href="/chapter-three/on-the-fringes/">Mental health</a></li>
+      <li><a href="/chapter-three/lesbians-left-out-of-activism/">Women</a></li>
+      <li><a href="/chapter-three/timeline/">Timeline</a></li>
+    </ul>
+    */?>
   </div>
   
