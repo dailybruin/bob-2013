@@ -31,7 +31,7 @@
         <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.CEDEP.sign.picA.jpg" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          A billboard greets drivers along the M1, Malawi's primary north-south highway. The sign hosts pictures of activists, lawyers, medical professionals and other community leaders who support LGBT right.
+          A billboard greets drivers along the M1, Malawi's primary north-south highway. The sign hosts pictures of activists, lawyers, medical professionals and other community leaders who support LGBT rights.
         </figcaption>
       </figure>
       <p>Activists from the organization, also known as CEDEP, use HIV/AIDS funding to conduct research, education and health care for the LGBT community, while trying to convince the public and other stakeholders that there are health benefits to decriminalization.</p>
@@ -52,7 +52,7 @@
         <li><div class="sample" style="background-color:#879C04"></div>Imprisonment up to 14 years</li>
         <li><div class="sample" style="background-color:#D7E86F"></div>Imprisonment, no length indication</li>
         <li><div class="sample" style="background-color:#84B6C2"></div>Homosexual acts legal</li>
-        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex copules legal</li>
+        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex couples legal</li>
       </ul>
     </div><!-- end .graphic-header -->
     <div class="mapcontainer"></div>
