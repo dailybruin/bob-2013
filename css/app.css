@@ -17,6 +17,13 @@ header.chapter-two #package-title {
 header.chapter-three {
   background-image: url('../img/day3/header.jpg');
 }
+header.columns {
+  background-image: url('../img/day3/header-columns.jpg');
+  background-position:bottom center;
+}
+header.columns #package-title {
+  color:#ddd;
+}
 
 
 .story {
@@ -304,7 +311,7 @@ article {
   margin-bottom:0.5em;
 }
 
-.story-drop p:first-child:first-letter {
+.story-drop p:first-child:first-letter, p.dropcap:first-letter {
   font-weight:bold;
   font-size: 5em;
   float: left;
@@ -846,6 +853,32 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   margin-right: 10px;
 }
 
+#trip-columns {
+  margin-top:10px;
+}
+#trip-columns .column-head {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 21px;
+}
+#trip-columns .column-info {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 7px;
+  font-size:0.9em;
+}
+#trip-columns .column-info .byline {
+  text-transform: uppercase;
+}
+#trip-columns .mugshot {
+  float: right;
+  width: 60%;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
 
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
@@ -1053,6 +1086,9 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
     text-align:center;
     font-size:1.7em;
     margin-top:30%;
+  }
+  #trip-columns .mugshot-small {
+    width:40%;
   }
 }
 
