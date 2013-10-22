@@ -313,6 +313,9 @@ article {
   margin-right: 10px;
   color:#1b1d0f;
 }
+.story-drop.story-drop-large p:first-child:first-letter {
+  font-size:6em;
+}
 .story p {
   font-size: 1.1em;
   line-height: 1.7;

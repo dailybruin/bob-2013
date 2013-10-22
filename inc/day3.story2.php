@@ -13,10 +13,17 @@
   </div>
       
   <div class="row">
-    <div class="large-7 large-offset-3 columns story story-drop">
+    <div class="large-7 large-offset-3 columns story story-drop story-drop-large">
       <p>She didn’t try to stop the beating.</p>
       <p>She cried through it, and it hurt. But she understood why it was happening.</p>
       <p>Her father was angry that she was lesbian, he was angry that people knew, he was angry that he had heard through other people.</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day3/web.bob.10.23.Mwayi.picA.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          A shoe collection which belongs to a woman, who asked to be called Mwayi is displayed.
+        </figcaption>
+      </figure>
       <p>“I just let him,” said the Malawian woman in her 20s, who asked to be called Mwayi for this story.</p>
       <p>Activists helped Mwayi find a home after her family disowned her in February. In July, she had been living in her current house for two months. </p>
       <p>In the struggle to gain rights for lesbian, gay, bisexual and transgender Malawians, some members of that community seem to be left out.</p>
@@ -24,6 +31,13 @@
       <p>Anal sex is more likely to lead to sexually transmitted infections than vaginal sex because the lining of the anus is much thinner. Men who have sex with men are more likely than lesbian women or heterosexual couples to engage in anal sex, so they are at higher risk of contracting HIV.</p>
       <p>“(Activists) take the pulse of the population and lawmakers and religious groups to understand what’s appropriate at a particular time,” said Ashley Currier, an assistant professor of women’s, gender and sexuality studies at the University of Cincinnati who researches LGBT organizing and homophobia around the world. </p>
       <p>Activists in some countries, such as South Africa, have managed to tailor their public health approach partially to women. They use HIV/AIDS funding to target sexual violence against women, saying that attacks like what activists call “corrective rape,” the practice of raping lesbian women to make them straight, contribute to the spread of HIV. LGBT populations have constitutional protections in South Africa, in contrast to Malawi’s restrictive laws.</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/photo/04.Madaliso.JPG" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          This woman, who asked to be called Madaliso for the story, is a lesbian woman in Malawi.
+        </figcaption>
+      </figure>
       <p>UCLA has worked with the MAC AIDS Fund in South Africa to fund projects that help women who have been through these attacks. </p>
       <p>In Malawi, the resources for lesbians are scarce.</p>
       <p>Fewer Malawian women are educated than men, so they have fewer employment opportunities. 2010 literacy rates were estimated at 68 percent for women older than 15, in contrast to 81 percent for men older than 15, according to the World Bank.  </p>
