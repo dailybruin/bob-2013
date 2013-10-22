@@ -2,7 +2,7 @@
 
 if($_SERVER["REMOTE_ADDR"] == "128.97.253.249")
 {
-  define("DEBUG", true);
+  define("DB_OFFICE", true);
 }
 
 $stories = array(
@@ -93,7 +93,7 @@ else
 }
 
 // If the part isn't available, serve a 404
-if(time() < strtotime($stories[$cur_part]["RELEASE"]) && !DEBUG)
+if(time() < strtotime($stories[$cur_part]["RELEASE"]) && !DEBUG && !DB_OFFICE)
 {
   send_404();
 }
