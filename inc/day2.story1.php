@@ -38,7 +38,7 @@
       <p>CEDEP was founded in 2005 by a group of men who realized that there was no Malawian organization to help the LGBT community, especially in terms of HIV/AIDS care, said Gift Trapence, the organization’s director.</p>
       <p>Malawi is a small country squeezed into southeastern Africa, and one of 76 countries worldwide that outlaws homosexuality. Men face up to 14 years of hard labor in prison for violating the law, and women face up to five years in prison.</p>
       <p>For her UCLA doctoral dissertation, sociologist Tara McKay conducted a nationwide survey in 2012 to determine Malawian attitudes toward homosexuality. McKay’s data shows that 97.7 percent of Malawians agreed with the statement “homosexuality is always wrong,” and more than 90 percent favor laws that criminalize same-sex sex.</p>
-      <p>But in a country where 10 percent of the population is HIV positive, Malawi’s LGBT rights activists saw an opening in one of the most high-volume international donor streams: public health funding.</p>
+      <p>But in a country where about 10 percent of the population is HIV positive, Malawi’s LGBT rights activists saw an opening in one of the most high-volume international donor streams: public health funding.</p>
       <p>HIV/AIDS funding is increasingly becoming tied to prevention in high-risk populations, such as men who have sex with men. MSM is meant to be an apolitical term, used mostly in medical circles, to describe gay and bisexual men, as well as prisoners and male sex workers. </p>
     </div>
     <div class="large-2 columns"> </div>

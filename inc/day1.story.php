@@ -94,7 +94,6 @@
           <li><img src="/img/day1/places/Mangochi/03.Mangochi.JPG" /></li>
           <li><img src="/img/day1/places/Mangochi/04.Mangochi.JPG" /></li>
           <li><img src="/img/day1/places/Mangochi/05.Mangochi.JPG" /></li>
-          <li><img src="/img/day1/places/Mangochi/06.Mangochi.JPG" /></li>
           <li><img src="/img/day1/places/Mangochi/07.Mangochi.JPG" /></li>
         </ul>
       </div>
