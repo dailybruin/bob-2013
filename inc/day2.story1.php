@@ -52,7 +52,7 @@
         <li><div class="sample" style="background-color:#879C04"></div>Imprisonment up to 14 years</li>
         <li><div class="sample" style="background-color:#D7E86F"></div>Imprisonment, no length indication</li>
         <li><div class="sample" style="background-color:#84B6C2"></div>Homosexual acts legal</li>
-        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex copules letal</li>
+        <li><div class="sample" style="background-color:#0B677C"></div>Joint adoption by same-sex copules legal</li>
       </ul>
     </div><!-- end .graphic-header -->
     <div class="mapcontainer"></div>
