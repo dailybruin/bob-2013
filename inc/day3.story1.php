@@ -58,6 +58,17 @@
       <p>In Malawi, however, the LGBT community lacks a place where they can ask questions, find educational resources and seek counseling and legal aid, according to a needs assessment study by Bandawe and the Centre for the Development of People, the country’s primary LGBT rights organization, commonly referred to as CEDEP.</p>
       <p>Without counseling, gay men and women are often alone in facing self-hatred and the threat of losing their jobs and families if found out. Some choose to try conversion attempts or exorcisms.</p>
       <p>Constantly hiding their identity from families, friends and employers can take a mental toll on gay men and lesbian women and lead to a dependence on alcohol or drugs, Bandawe said.</p>
+    </div>
+    <div class="large-2 columns"> </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day3/01.Header.JPG')">
+    <div class="quote" style="padding:0">
+      I would actually spend the whole night in the club, and I would drink too much whiskey.
+      <span class="quote-credit">— Pablo</span>
+    </div><!-- end div.quote -->
+  </aside>
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p>Problems with addiction are only exacerbated by Malawi’s high unemployment rate and a drinking culture that starts in the morning and provides easy access to small plastic bags of 40 percent alcohol for the equivalent of about 15 U.S. cents. </p>
       <p>“I would actually spend the whole night in the club, and I would drink too much whiskey,” Pablo said. </p>
       <p>Pablo drank and went out because that’s how most of the men he surrounded himself with spent their time. </p>
@@ -100,6 +111,16 @@
       <p>“It was like a nightmare that I was trying to wake up from, but I realized it was a reality,” he said.</p>
       <p>The only thing that makes remembering that night easier, Lane said, is to get high. </p>
       <p>He uses pot two or three times a week, plus cocaine once every one or two weeks, when he can get his hands on it.</p>
+    </div>
+  </div>
+  <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day3/02.Header.JPG')">
+    <div class="quote" style="padding:0">
+      All I need is my life back. I want to achieve what I&rsquo;ve been looking forward to.
+      <span class="quote-credit">— Lane</span>
+    </div><!-- end div.quote -->
+  </aside>
+  <div class="row">
+    <div class="large-7 large-offset-3 columns story">      
       <p>He’s hoping to get asylum in another country, so he can pursue his flight attendant career.</p>
       <p>But he needs money to pay for that school. As of September, he was still $1,000 short.</p>
       <p>“All I need is my life back,” Lane said. “I want to achieve what I’ve been looking forward to.”  </p>
