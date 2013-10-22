@@ -237,7 +237,7 @@
         <img src="<?php echo SITE_URL ?>img/day1/web.bob.10.21.andrea.dunker.picA.jpg" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          Centre for the Development of People administrator Dunker Kamba and Johns Hopkins Center for PUblic Health and Human Rights researcher Andrea Wirtz check data from a study on men who have sex with men in Malawi.
+          Centre for the Development of People administrator Dunker Kamba and Johns Hopkins Center for Public Health and Human Rights researcher Andrea Wirtz check data from a study on men who have sex with men in Malawi.
         </figcaption>
       </figure>
       <p>But research in the country requires ethical approval from both the home institution and the host country.</p>
