@@ -3,7 +3,7 @@
     <h2>Looking for Light</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 22, 2013</span></div>
     <a class="otherstory next" href="/chapter-two/turning-taboos-into-talking-points/">
-      <span class="kicker">Read more</span>
+      <span class="kicker">Next</span>
       <span class="shorttitle">Turning taboos into talking points</span>
     </a>
   </div>
@@ -135,7 +135,7 @@
   </div>
   <aside class="pull-quote parallax" style="background-image:url('<?php echo SITE_URL; ?>img/day2/10.Header.JPG')">
     <div class="quote" style="padding:0">
-      There is the public health approach that says anyone who needs a service should get it. And no one argues about that.
+      There is the public health approach that says anyone who needs a service should get it. &hellip; And no one argues about that.
       <span class="quote-credit">— Patrick Brenny</span>
     </div><!-- end div.quote -->
   </aside>
@@ -207,6 +207,13 @@
       <p>“But it did not work.”</p>
       <p>It wasn’t until 2007, when a friend invited him to a launch party for CEDEP, that Fortune realized how many men were like him.</p>
       <p>“Some of the people who I didn’t expect to be gay were at that party. So I went to them and I asked them, ‘Are you sure you are gay?’ And they said, ‘Ah yes, this is how I am,’” Fortune said. “Some people I had met in the streets, but I didn’t know they were also gay.”</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/photo/11.Fortune.jpg" />
+        <figcaption>
+          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
+          This Malawian man, who asked to be called Fortune for this story, is gay. Fortune works for the Centre for the Development of People, the country's primary gay rights organization.
+        </figcaption>
+      </figure>
       <p>He was fired from another job in 2010, a nonprofit benefiting children, when the organization found out he was gay, he said.</p>
       <p>He got a job with CEDEP assisting with HIV/AIDS prevention research and data collection. </p>
       <p>Working closely with an LGBT organization does have its risks, though.</p>
@@ -221,7 +228,7 @@
 </article>
 
 <a class="otherstory bottom next" href="/chapter-two/turning-taboos-into-talking-points/">
-  <span class="kicker">Read more</span>
+  <span class="kicker">Next</span>
   <span class="shorttitle">Turning taboos into talking points</span>
 </a>
 <div class="clear"></div>
