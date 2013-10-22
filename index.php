@@ -4,6 +4,10 @@ if($_SERVER["REMOTE_ADDR"] == "128.97.253.249")
 {
   define("DB_OFFICE", true);
 }
+else
+{
+  define("DB_OFFICE", false);
+}
 
 $stories = array(
   "DEFAULT" => "chapter-one",
