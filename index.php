@@ -29,9 +29,13 @@ $stories = array(
       "file" => "inc/day3.story1.php",
       "title" => "On the Fringes"
     ),
-    "women" => array(
+    "lesbians-left-out-of-activism" => array(
       "file" => "inc/day3.story2.php",
-      "title" => "???"
+      "title" => "Lesbians left out of activism"
+    ),
+    "timeline" => array(
+      "file" => "inc/day3.timeline.php",
+      "title" => "Timeline: LGBT Rights in Malawi and the U.S."
     )
   ),
   "columns" => array(

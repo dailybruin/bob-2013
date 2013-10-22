@@ -2,9 +2,9 @@
   <div class="headline">
     <h2>On the Fringes</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 23, 2013</span></div>
-    <a class="otherstory next" href="/chapter-two/turning-taboos-into-talking-points/">
-      <span class="kicker">Read more</span>
-      <span class="shorttitle">???</span>
+    <a class="otherstory next" href="/chapter-three/lesbians-left-out-of-activism/">
+      <span class="kicker">Next</span>
+      <span class="shorttitle">Lesbians left out of activism</span>
     </a>
   </div>
   
@@ -31,7 +31,7 @@
         <img src="<?php echo SITE_URL ?>img/photo/02.Nelson.Pablo.JPG" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          &ldquo;We always keep our distance even for fear of being stigmatized. &hellip; I want to live in a society where everyone minds his own business.&rdquo; &mdash; Pablo
+          &ldquo;We always keep our distance even for fear of being stigmatized. &hellip; I want to live in a society where everyone minds his own business.&rdquo; &mdash;&nbsp;Pablo
         </figcaption>
       </figure>
       <p>Malawi is a small country tucked into southeastern Africa, between Tanzania, Mozambique and Zambia. Homosexuality is both illegal and heavily stigmatized, so Pablo and his boyfriend have to be cautious about the way they act in public. Most people assume they’re friends or cousins.</p>
@@ -112,8 +112,8 @@
   </div>      
 </article>
 
-<a class="otherstory bottom next" href="/chapter-two/turning-taboos-into-talking-points/">
-  <span class="kicker">Read more</span>
-  <span class="shorttitle">???</span>
+<a class="otherstory bottom next" href="/chapter-three/lesbians-left-out-of-activism/">
+  <span class="kicker">Next</span>
+  <span class="shorttitle">Lesbians left out of activism</span>
 </a>
 <div class="clear"></div>
