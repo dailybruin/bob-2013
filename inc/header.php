@@ -48,16 +48,16 @@
   <nav>
     <ul>
       <li <?php if ($cur_part == 'chapter-one'): ?>class="active"<?php endif; ?>><a href="/" >Chapter One</a></li>
-      <li class="disabled"><a href="#" data-dropdown="part2">Chapter Two (Tuesday)</a></li>
+      <li <?php if ($cur_part == 'chapter-two'): ?>class="active"<?php endif; ?>><a href="/chapter-two/" data-dropdown="part2">Chapter Two</a></li>
       <li class="disabled"><a href="#">Chapter Three (Wednesday)</a></li>
       <li class="disabled"><a href="#">Columns (Wednesday)</a></li>
       <li <?php if ($cur_part == 'photos'): ?>class="active"<?php endif; ?>><a href="/photos/revealing-voices">Photo Essay</a></li>
     </ul>
   </nav>
   <div class="dropdowns">
-    <ul id="part1" class="f-dropdown" data-dropdown-content>
-      <li><a href="#">Story 1</a></li>
-      <li><a href="#">Story 2</a></li>
+    <ul id="part2" class="f-dropdown" data-dropdown-content>
+      <li><a href="/chapter-two/looking-for-light/">Community</a></li>
+      <li><a href="/chapter-two/turning-taboos-into-talking-points/">Education</a></li>
     </ul>
   </div>
   

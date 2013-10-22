@@ -12,7 +12,7 @@
     <hr />
     <div class="row">
       <div class="large-4 large-centered columns">
-        Activists use HIV/AIDS funding to step toward rights
+        Activists use HIV/AIDS funding to step toward rights.
       </div>
     </div>
   </div>
@@ -167,13 +167,9 @@
       <p>Stories like Copro’s happen in remote places, and the only way that larger organizations like CEDEP find out is through the networks of peer educators – mostly gay men – that they have developed throughout the country. </p>
       <p>These networks are often established using HIV/AIDS funding, because peer educators are tasked with spreading HIV/AIDS prevention messages. In the absence of open forums, they are the ones who often carry out programs that directly impact LGBT lives. </p>
       <p>They meet in bars to discuss HIV prevention, they distribute free condoms and lubrication from CEDEP, they find MSM to participate in studies and gain access to services.</p>
-      <figure>
-        <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.Gift.picA.jpg" />
-        <figcaption>
-          <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          Gift Trapence is the director of the Centre for the Development of People, Malawi's primary LGBT rights organization.
-        </figcaption>
-      </figure>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/WUPXKK23ty4" frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>As of July, there were about 80 peer educators throughout the country. </p>
       <p>Trapence said the peer education model is the most efficient way to connect one of the country’s most hidden populations, because the men already trust each other. They can pass information to former and current partners, or friends of those partners.</p>
       <p>But the peer educators are volunteers, many unemployed, and they function on a very small stipend for communication and transportation, Trapence said.</p>

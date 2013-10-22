@@ -1,8 +1,8 @@
   <footer>
     <ul class="footer-links">
-      <li><a href="/">Part One</a></li>
-      <li class="disabled"><a href="#">Part Two</a></li>
-      <li class="disabled"><a href="#">Part Three</a></li>
+      <li><a href="/">Chapter One</a></li>
+      <li><a href="/chapter-two/">Chapter Two</a></li>
+      <li class="disabled"><a href="#">Chapter Three</a></li>
       <li class="disabled"><a href="#">Columns</a></li>
       <li><a href="/photos/revealing-voices/">Photo Essay</a></li>
     </ul>
