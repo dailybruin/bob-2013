@@ -52,7 +52,7 @@
       <p>She said lesbian women in the country should have access to scholarships for college tuition, as well as help getting jobs, so they have the independence to come out and live as lesbian women.</p>
       <p>CEDEP is also trying to create programs for lesbian women and prove that they exist in Malawi. The organization was founded in 2005 by a group of men who originally focused on gaps in HIV/AIDS treatment, so women were left out of the original strategic plan, said CEDEP administrator Dunker Kamba.</p>
       <p>Earlier this year, about 40 Malawian lesbians met with CEDEP to talk about their needs and rights.</p>
-      <p>Mwayi was there, advocating for herself.</p>
+      <p>Mwayi was there, advocating for herself. ■</p>
       </p>
     </div>
     <div class="large-2 columns"> </div>
