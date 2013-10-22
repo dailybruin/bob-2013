@@ -50,7 +50,7 @@
         <img src="<?php echo SITE_URL ?>img/day3/web.bob.10.23.mentalhealth.picA.jpg" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          ??????
+          This shelf in the Blantyre offices of the Centre for the Development of People holds educational books and pamphlets. Pablo wants CEDEP's northern office to hold an expansive library which will serve as a safe space for men and women in the community to come for education.
         </figcaption>
       </figure>
       <p>Mental health resources for LGBT communities are greater in countries with more gay rights, such as the United States, Meyer said.</p>
