@@ -12,7 +12,7 @@
     <hr />
     <div class="row">
       <div class="large-4 large-centered columns">
-        Activists use HIV/AIDS funding to build a movement
+        Activists use HIV/AIDS funding to step toward rights
       </div>
     </div>
   </div>
