@@ -37,7 +37,7 @@
       <p>Malawi is a small country tucked into southeastern Africa, between Tanzania, Mozambique and Zambia. Homosexuality is both illegal and heavily stigmatized, so Pablo and his boyfriend have to be cautious about the way they act in public. Most people assume they’re friends or cousins.</p>
       <p>In Malawi, few resources exist to combat the underlying mental health problems that can lead to addiction for the lesbian, gay, bisexual and transgender community.</p>
       <p>Members of the LGBT community face higher rates of substance abuse than the general population worldwide because they tend to experience higher levels of stress, said Ilan Meyer, a UCLA law professor who has researched mental health within the LGBT community for the Williams Institute at UCLA, which conducts law and public policy research on the LGBT community.</p>
-      <p>The United States Agency for International Development committed $96.8 million in aid to Malawi during the 2013 fiscal year. The biggest chunk of that – $26.9 million – went to combatting HIV/AIDS. None of it went to what is classified as “democracy, human rights axnd governance.” </p>
+      <p>The United States Agency for International Development committed $96.8 million in aid to Malawi during the 2013 fiscal year. The biggest chunk of that – $26.9 million – went to combatting HIV/AIDS. None of it went to what is classified as “democracy, human rights and governance.” </p>
       <p>Most of the funding to decrease addiction in the LGBT community is dedicated to preventing HIV/AIDS by stopping the drug and alcohol abuse that leads to risky sexual behaviors – not by addressing the psychological sources of that addiction.</p>
       <div class="flex-video">
         <iframe width="420" height="315" src="//www.youtube.com/embed/URKGIa0b_jI" frameborder="0" allowfullscreen></iframe> 
@@ -54,7 +54,7 @@
         </figcaption>
       </figure>
       <p>Mental health resources for LGBT communities are greater in countries with more gay rights, such as the United States, Meyer said.</p>
-      <p>UCLA, for example, has an LGBT resource center centrally located on campus, near Bruin Plaza. It has an in-house counselor and a library.   The university has had some form of an LGBT student center since 1995.</p>
+      <p>UCLA, for example, has an LGBT resource center centrally located on campus, near Bruin Plaza. It has an in-house counselor and a library. The university has had some form of an LGBT student center since 1995.</p>
       <p>In Malawi, however, the LGBT community lacks a place where they can ask questions, find educational resources and seek counseling and legal aid, according to a needs assessment study by Bandawe and the Centre for the Development of People, the country’s primary LGBT rights organization, commonly referred to as CEDEP.</p>
       <p>Without counseling, gay men and women are often alone in facing self-hatred and the threat of losing their jobs and families if found out. Some choose to try conversion attempts or exorcisms.</p>
       <p>Constantly hiding their identity from families, friends and employers can take a mental toll on gay men and lesbian women and lead to a dependence on alcohol or drugs, Bandawe said.</p>
@@ -69,9 +69,9 @@
   </aside>
   <div class="row">
     <div class="large-7 large-offset-3 columns story">      
-      <p>Problems with addiction are only exacerbated by Malawi’s high unemployment rate and a drinking culture that starts in the morning and provides easy access to small plastic bags of 40 percent alcohol for the equivalent of about 15 U.S. cents. </p>
+      <p>Problems with addiction are only exacerbated by Malawi’s high unemployment rate and a drinking culture that starts in the morning and provides easy access to small plastic bags of 40 percent alcohol for the equivalent of about 15 U.S. cents.</p>
       <p>“I would actually spend the whole night in the club, and I would drink too much whiskey,” Pablo said. </p>
-      <p>Pablo drank and went out because that’s how most of the men he surrounded himself with spent their time. </p>
+      <p>Pablo drank and went out because that’s how most of the men he surrounded himself with spent their time.</p>
       <p>He was addicted.</p>
       <p>He was able to stop because he had encouragement from his boyfriend and a supportive family in Zimbabwe, where the culture is more open toward homosexuality. Meanwhile, full-time employment at CEDEP keeps him busy so that he doesn’t spend his time drinking.</p>
       <figure>
@@ -89,13 +89,13 @@
       <p>So he’ll continue to bring it up in conversation  – in the bars where he meets friends or when they come to him seeking the condoms and lubrication that CEDEP provides.</p>
       <p></p>
       <p><strong>A deeper problem</strong></p>
-      <p>Merely changing behavior, however, does not necessarily resolve the mental health issues that often lead to addiction. Members of Malawi’s LGBT community who have reduced their drug and alcohol usage still have to cope with the threat of arrest, the fear of being outed, and the stress of constant hiding. </p>
+      <p>Merely changing behavior, however, does not necessarily resolve the mental health issues that often lead to addiction. Members of Malawi’s LGBT community who have reduced their drug and alcohol usage still have to cope with the threat of arrest, the fear of being outed and the stress of constant hiding. </p>
       <p>During a July focus group about drug and alcohol abuse at CEDEP’s northern office, men talked about the reasons behind substance abuse in the LGBT community.</p>
       <p>It’s easier to approach a man romantically when you’re drunk – the alcohol takes away the fear of rejection, the fear of arrest, the fear of fighting with someone.</p>
-      <p>Many people are unemployed, alcohol is cheap, and there’s nothing else to do.</p>
+      <p>Many people are unemployed, alcohol is cheap and there’s nothing else to do.</p>
       <p>Walking down the street is stressful when you know everyone is whispering about you, saying you’re gay, judging you.</p>
       <p>But CEDEP does not currently have the funding to substantially expand mental health aid, CEDEP director Gift Trapence said in July.</p>
-      <p>“There is that gap that we’ve realized that we need to work on,” he said. “But of course now comes the issue of resources.” </p>
+      <p>“There is that gap that we’ve realized that we need to work on,” he said. “But of course now comes the issue of resources.”</p>
       <p>Ideally, Trapence would like to be able to provide shelter to men and women who have been outed and kicked out of their homes, as well as counseling resources at the offices.</p>
       <figure>
         <img src="<?php echo SITE_URL ?>img/photo/03.Lane.JPG" />
@@ -123,11 +123,12 @@
     <div class="large-7 large-offset-3 columns story">      
       <p>He’s hoping to get asylum in another country, so he can pursue his flight attendant career.</p>
       <p>But he needs money to pay for that school. As of September, he was still $1,000 short.</p>
-      <p>“All I need is my life back,” Lane said. “I want to achieve what I’ve been looking forward to.”  </p>
+      <p>“All I need is my life back,” Lane said. “I want to achieve what I’ve been looking forward to.” </p>
       <p>Meanwhile, he said he would like access to a psychologist who can help him cope, to play the role that drugs do now.</p>
       <p>Pablo, who works in the northern region of Malawi, would like to see the main room in the CEDEP northern office transformed into a library, a safe space where people can come to educate themselves on their rights and resources.</p>
       <p>Right now, he said, he can only rely on his own experience to provide that help. And it’s not enough. ■</p>
-      </p>
+      <hr />
+      <p><em>Contributing reports by Blaine Ohigashi, Bruin senior staff.</em></p>
     </div>
     <div class="large-2 columns"> </div>
   </div>      
