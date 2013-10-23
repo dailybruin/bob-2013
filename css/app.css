@@ -903,6 +903,7 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   font-weight:bold;
 }
 
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
@@ -1112,6 +1113,21 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   }
   #trip-columns .mugshot-small {
     width:40%;
+  }
+  .timeline-right figure {
+    width: 500px;
+    float: right;
+    margin-left: -67px;
+    position: relative;
+    left:0;
+  }
+  figure.figure-small {
+    width:50%; 
+    margin-left:10px
+  }
+  figure.figure-small figcaption {
+    position: static;
+    width: auto;
   }
 }
 

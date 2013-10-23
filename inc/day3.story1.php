@@ -60,15 +60,15 @@
     </div><!-- end div.quote -->
   </aside>
   <div class="row">
-    <div class="large-7 large-offset-3 columns story">      
+    <div class="large-5 columns">
+      <img src="<?php echo SITE_URL; ?>img/day3/10.23.BOB.GayRightsTimeline.COLORED.2col.ai_fixedMonday.jpg" id="timeline" style="width:100%">
+    </div>
+    <div class="large-7 columns story timeline-right">
       <p>Problems with addiction are only exacerbated by Malawi’s high unemployment rate and a drinking culture that starts in the morning and provides easy access to small plastic bags of 40 percent alcohol for the equivalent of about 15 U.S. cents.</p>
       <p>“I would actually spend the whole night in the club, and I would drink too much whiskey,” Pablo said. </p>
       <p>Pablo drank and went out because that’s how most of the men he surrounded himself with spent their time.</p>
       <p>He was addicted.</p>
       <p>He was able to stop because he had encouragement from his boyfriend and a supportive family in Zimbabwe, where the culture is more open toward homosexuality. Meanwhile, full-time employment at CEDEP keeps him busy so that he doesn’t spend his time drinking.</p>
-      <figure>
-        <img src="<?php echo SITE_URL ?>img/day3/10.22.copyeditedBOB.PEPFAR.jpg" />
-      </figure>
       <p>But after Pablo became sober, he noticed that some of his friends were still abusing.</p>
       <p>One program Pablo is involved in with CEDEP includes a network of peer educators who share messages about HIV/AIDS prevention with the community, which mostly consists of men who have sex with men.  Earlier this year, they taught that drug and alcohol abuse in an already high-risk community can make an easy transmission even easier because men who are consistently high or drunk might share needles or be more likely to have unprotected sex.</p>
       <p>Pablo had pushed for this message.</p>
@@ -92,7 +92,7 @@
       </div>
       <p>“There is that gap that we’ve realized that we need to work on,” he said. “But of course now comes the issue of resources.”</p>
       <p>Ideally, Trapence would like to be able to provide shelter to men and women who have been outed and kicked out of their homes, as well as counseling resources at the offices.</p>
-      <figure>
+      <figure class="figure-small">
         <img src="<?php echo SITE_URL ?>img/photo/03.Lane.JPG" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
@@ -117,6 +117,9 @@
   <div class="row">
     <div class="large-7 large-offset-3 columns story">      
       <p>He’s hoping to get asylum in another country, so he can pursue his flight attendant career.</p>
+      <figure>
+        <img src="<?php echo SITE_URL ?>img/day3/10.22.copyeditedBOB.PEPFAR.jpg" />
+      </figure>
       <p>But he needs money to pay for that school. As of September, he was still $1,000 short.</p>
       <p>“All I need is my life back,” Lane said. “I want to achieve what I’ve been looking forward to.” </p>
       <p>Meanwhile, he said he would like access to a psychologist who can help him cope, to play the role that drugs do now.</p>
