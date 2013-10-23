@@ -8,16 +8,7 @@
       <span class="shorttitle">Lesbians left out of activism</span>
     </a>
   </div>
-  
-  <div class="subhead">
-    <hr />
-    <div class="row">
-      <div class="large-4 large-centered columns">
-        The strategy leaves out some members of the LGBT community.
-      </div>
-    </div>
-  </div>
-    
+      
   <div class="row">
     <div class="large-3 columns">
       <div id="about-bridget">
