@@ -1,6 +1,7 @@
 <article>
   <div class="headline">
-    <h2>A Battle for Care</h2>
+    <span class="package-title">A Battle for Care</span>
+    <h2>Global organizations seek local solutions</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli and Blaine Ohigashi</span> • <span class="date">October 21, 2013</span></div>  </div>
   
   <div class="subhead">

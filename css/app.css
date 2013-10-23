@@ -887,6 +887,21 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   margin-bottom: 5px;
 }
 
+.package-title + h2 {
+  padding-top:0;
+}
+.package-title {
+  padding-top:20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+  padding-bottom: 5px;
+  font-weight:bold;
+}
+
 /* Use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
