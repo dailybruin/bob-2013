@@ -101,7 +101,7 @@
         <img src="<?php echo SITE_URL ?>img/photo/03.Lane.JPG" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          This man, who asked to be called Lane for this story, is a Malawian who was kicked out of his house, and later beaten, by his family when they found out he was gay. He takes drugs to deail with the memory.
+          This man, who is called Lane in this story, is a Malawian who was kicked out of his house, and later beaten, by his family when they found out he was gay. He takes drugs to deal with the memory.
         </figcaption>
       </figure>
       <p>Lane, a gay Malawian man who asked to remain anonymous, didn’t have a professional to turn to this summer when his family found out he was gay.</p>
