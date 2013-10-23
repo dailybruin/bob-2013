@@ -42,10 +42,6 @@ $stories = array(
       "file" => "inc/day3.story2.php",
       "title" => "Lesbians left out of activism"
     ),
-    "timeline" => array(
-      "file" => "inc/day3.timeline.php",
-      "title" => "Timeline: LGBT Rights in Malawi and the U.S."
-    )
   ),
   "columns" => array(
     "DEFAULT" => "blaine-sonali",
