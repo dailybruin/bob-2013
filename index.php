@@ -1,6 +1,6 @@
 <?php include('config.php');
 
-if($_SERVER["REMOTE_ADDR"] == "128.97.253.249")
+if($_SERVER["REMOTE_ADDR"] == "128.97.253.249" || $_SERVER["REMOTE_ADDR"] == "98.154.38.67")
 {
   define("DB_OFFICE", true);
 }
