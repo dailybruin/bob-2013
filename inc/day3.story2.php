@@ -1,14 +1,11 @@
 <article>
   <div class="headline">
+    <span class="package-title">On the Fringes</span>
     <h2>Lesbians left out of activism</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 23, 2013</span></div>
     <a class="otherstory prev" href="/chapter-three/on-the-fringes/">
       <span class="kicker">Previous</span>
-      <span class="shorttitle">On the Fringes</span>
-    </a>
-    <a class="otherstory next" href="/chapter-three/timeline/">
-      <span class="kicker">next</span>
-      <span class="shorttitle">Timeline: LGBT Rights in Malawi</span>
+      <span class="shorttitle">Carrying an unrelieved burden</span>
     </a>
   </div>
       
@@ -62,12 +59,8 @@
 
 <a class="otherstory bottom prev" href="/chapter-three/on-the-fringes/">
   <span class="kicker">Previous</span>
-  <span class="shorttitle">On the Fringes</span>
+  <span class="shorttitle">Carrying an unrelieved burden</span>
   <span class="lede">The couple sat side by side in a Malawian coffee shop, both sets of arms crossed on top of the table, no parts of them touching.</span>
-</a>
-<a class="otherstory bottom next" href="/chapter-three/timeline/">
-  <span class="kicker">Next</span>
-  <span class="shorttitle">Timeline: LGBT Rights in Malawi</span>
 </a>
 
 <div class="clear"></div>

@@ -1,10 +1,11 @@
 <article>
   <div class="headline">
+    <span class="package-title">Looking for Light</span>
     <h2>Turning taboos into talking points</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 22, 2013</span></div>
     <a class="otherstory prev" href="/chapter-two/looking-for-light/">
       <span class="kicker">Previous</span>
-      <span class="shorttitle">Looking for Light</span>
+      <span class="shorttitle">Connecting health and human rights</span>
     </a>
   </div>
       
@@ -96,7 +97,7 @@
 
 <a class="otherstory bottom prev" href="/chapter-two/looking-for-light/">
   <span class="kicker">Previous</span>
-  <span class="shorttitle">Looking for Light</span>
+  <span class="shorttitle">Connecting health and human rights</span>
   <span class="lede">They are tucked into residential neighborhoods, protected by high walls and gates, or hidden off of side streets – in these buildings Malawian men and women are free to tease each other about their latest crush, to declare their goals and hopes for the future of lesbian, gay, bisexual and transgender rights.</span>
 </a>
 <div class="clear"></div>

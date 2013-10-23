@@ -506,6 +506,7 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   margin-top:0.8em;
   display:block;
   font-style:italic;
+  line-height: 1.2;
 }
 .otherstory.bottom {
   display: block;

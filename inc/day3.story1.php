@@ -1,6 +1,7 @@
 <article>
   <div class="headline">
-    <h2>On the Fringes</h2>
+    <span class="package-title">On the Fringes</span>
+    <h2>Carrying an unrelieved burden</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 23, 2013</span></div>
     <a class="otherstory next" href="/chapter-three/lesbians-left-out-of-activism/">
       <span class="kicker">Next</span>

@@ -1,6 +1,7 @@
 <article>
   <div class="headline">
-    <h2>Looking for Light</h2>
+    <span class="package-title">Looking for Light</span>
+    <h2>Connecting health and human rights</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 22, 2013</span></div>
     <a class="otherstory next" href="/chapter-two/turning-taboos-into-talking-points/">
       <span class="kicker">Next</span>
