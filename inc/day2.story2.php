@@ -54,7 +54,7 @@
         <img src="<?php echo SITE_URL ?>img/day2/web.bob.10.22.Galia.picA.jpg" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          Galia Boneh founded the Art & Global Health Center Africa, which is affiliated with UCLA's Art & Global Health Center.
+          Galia Boneh is the founder of the Art &amp; Global Health Center Africa, and Sharifa Abdulla is the director.
         </figcaption>
       </figure>
       <p>Galia Boneh has also taught at Chancellor College and founded the Art and Global Health Center Africa, which is affiliated with UCLA’s Art and Global Health Center.</p>

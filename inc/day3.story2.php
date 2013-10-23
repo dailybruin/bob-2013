@@ -21,7 +21,7 @@
         <img src="<?php echo SITE_URL ?>img/day3/web.bob.10.23.Mwayi.picA.jpg" />
         <figcaption>
           <span class="credit">Blaine Ohigashi / Daily Bruin Senior Staff</span>
-          A shoe collection which belongs to a woman, who asked to be called Mwayi is displayed.
+          This shoe collection belongs to a lesbian woman in Malawian, who asked to be called Mwayi. The purple shoes are her favorite pair.
         </figcaption>
       </figure>
       <p>“I just let him,” said the Malawian woman in her 20s, who asked to be called Mwayi for this story.</p>
