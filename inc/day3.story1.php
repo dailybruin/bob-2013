@@ -41,7 +41,7 @@
       <p>The United States Agency for International Development committed $96.8 million in aid to Malawi during the 2013 fiscal year. The biggest chunk of that – $26.9 million – went to combatting HIV/AIDS. None of it went to what is classified as “democracy, human rights and governance.” </p>
       <p>Most of the funding to decrease addiction in the LGBT community is dedicated to preventing HIV/AIDS by stopping the drug and alcohol abuse that leads to risky sexual behaviors – not by addressing the psychological sources of that addiction.</p>
       <div class="flex-video">
-        <iframe width="420" height="315" src="//www.youtube.com/embed/URKGIa0b_jI" frameborder="0" allowfullscreen></iframe> 
+        <iframe width="420" height="315" src="//www.youtube.com/embed/ldWAiidbhXg" frameborder="0" allowfullscreen></iframe> 
       </div>
       <p>As of July, there were only two licensed clinical psychologists in all of Malawi, said Chiwoza Bandawe, one of those psychologists and the dean of students at the University of Malawi College of Medicine. </p>
       <p>Add to that limited funding, and the LGBT community is left with limited access to adequate mental health and counseling services, Bandawe said.</p>
@@ -96,6 +96,9 @@
       <p>Many people are unemployed, alcohol is cheap and there’s nothing else to do.</p>
       <p>Walking down the street is stressful when you know everyone is whispering about you, saying you’re gay, judging you.</p>
       <p>But CEDEP does not currently have the funding to substantially expand mental health aid, CEDEP director Gift Trapence said in July.</p>
+      <div class="flex-video">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/HMxIB4mLMaU" frameborder="0" allowfullscreen></iframe>
+      </div>
       <p>“There is that gap that we’ve realized that we need to work on,” he said. “But of course now comes the issue of resources.”</p>
       <p>Ideally, Trapence would like to be able to provide shelter to men and women who have been outed and kicked out of their homes, as well as counseling resources at the offices.</p>
       <figure>
