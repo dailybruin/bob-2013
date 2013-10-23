@@ -226,5 +226,6 @@
 <a class="otherstory bottom next" href="/chapter-two/turning-taboos-into-talking-points/">
   <span class="kicker">Next</span>
   <span class="shorttitle">Turning taboos into talking points</span>
+  <span class="lede">In one lecture for the class, Boneh said she approached the topic of the LGBT community cautiously to avoid possible hostility from students.</span>
 </a>
 <div class="clear"></div>

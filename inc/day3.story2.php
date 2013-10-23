@@ -63,6 +63,7 @@
 <a class="otherstory bottom prev" href="/chapter-three/on-the-fringes/">
   <span class="kicker">Previous</span>
   <span class="shorttitle">On the Fringes</span>
+  <span class="lede">The couple sat side by side in a Malawian coffee shop, both sets of arms crossed on top of the table, no parts of them touching.</span>
 </a>
 <a class="otherstory bottom next" href="/chapter-three/timeline/">
   <span class="kicker">Next</span>

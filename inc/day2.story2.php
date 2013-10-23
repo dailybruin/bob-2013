@@ -97,5 +97,6 @@
 <a class="otherstory bottom prev" href="/chapter-two/looking-for-light/">
   <span class="kicker">Previous</span>
   <span class="shorttitle">Looking for Light</span>
+  <span class="lede">They are tucked into residential neighborhoods, protected by high walls and gates, or hidden off of side streets – in these buildings Malawian men and women are free to tease each other about their latest crush, to declare their goals and hopes for the future of lesbian, gay, bisexual and transgender rights.</span>
 </a>
 <div class="clear"></div>

@@ -530,6 +530,13 @@ footer .copyright a, footer .copyright a:visited, footer .copyright a:visited, f
   font-size:1.3em;
   margin-top:0.5em;
 }
+.otherstory.bottom .lede {
+  margin-top: 10px;
+  display: inline-block;
+  line-height: 1.1;
+  font-size: 0.95em;
+  opacity:0.8;
+}
 .otherstory.bottom:visited {
   color:#333;
 }

@@ -137,5 +137,6 @@
 <a class="otherstory bottom next" href="/chapter-three/lesbians-left-out-of-activism/">
   <span class="kicker">Next</span>
   <span class="shorttitle">Lesbians left out of activism</span>
+  <span class="lede">She didn’t try to stop the beating.<br />She cried through it, and it hurt. But she understood why it was happening.</span>
 </a>
 <div class="clear"></div>
