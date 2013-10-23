@@ -28,7 +28,7 @@
     
   <script src="<?php echo SITE_URL ?>js/foundation.min.js"></script>
   
-  <script src="<?php echo SITE_URL ?>js/app.js"></script>
+  <script src="<?php echo SITE_URL ?>js/app.js?t=1382531158"></script>
   <!--
   
   <script src="<?php echo SITE_URL ?>js/foundation/foundation.js"></script>
