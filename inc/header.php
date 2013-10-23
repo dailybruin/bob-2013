@@ -49,22 +49,19 @@
     <ul>
       <li <?php if ($cur_part == 'chapter-one'): ?>class="active"<?php endif; ?>><a href="/" >Chapter One</a></li>
       <li <?php if ($cur_part == 'chapter-two'): ?>class="active"<?php endif; ?>><a href="/chapter-two/" data-dropdown="part2">Chapter Two</a></li>
-      <li class="disabled"><a href="#">Chapter Three (Wednesday)</a></li>
-      <li class="disabled"><a href="#">Columns (Wednesday)</a></li>
+      <li <?php if ($cur_part == 'chapter-three'): ?>class="active"<?php endif; ?>><a href="/chapter-three/" data-dropdown="part3">Chapter Three</a></li>
+      <li <?php if ($cur_part == 'columns'): ?>class="active"<?php endif; ?>><a href="/columns/">Columns</a></li>
       <li <?php if ($cur_part == 'photos'): ?>class="active"<?php endif; ?>><a href="/photos/revealing-voices">Photo Essay</a></li>
     </ul>
   </nav>
   <div class="dropdowns">
     <ul id="part2" class="f-dropdown" data-dropdown-content>
-      <li><a href="/chapter-two/looking-for-light/">Community</a></li>
-      <li><a href="/chapter-two/turning-taboos-into-talking-points/">Education</a></li>
+      <li><a href="/chapter-two/looking-for-light/">Health and human rights</a></li>
+      <li><a href="/chapter-two/turning-taboos-into-talking-points/">Talking about taboos</a></li>
     </ul>
-    <?php /*
     <ul id="part3" class="f-dropdown" data-dropdown-content>
-      <li><a href="/chapter-three/on-the-fringes/">Mental health</a></li>
-      <li><a href="/chapter-three/lesbians-left-out-of-activism/">Women</a></li>
-      <li><a href="/chapter-three/timeline/">Timeline</a></li>
+      <li><a href="/chapter-three/on-the-fringes/">An unrelieved burden</a></li>
+      <li><a href="/chapter-three/lesbians-left-out-of-activism/">Women left out</a></li>
     </ul>
-    */?>
   </div>
   
