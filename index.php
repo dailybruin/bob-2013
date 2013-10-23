@@ -1,14 +1,5 @@
 <?php include('config.php');
 
-if($_SERVER["REMOTE_ADDR"] == "128.97.253.249" || $_SERVER["REMOTE_ADDR"] == "98.154.38.67")
-{
-  define("DB_OFFICE", true);
-}
-else
-{
-  define("DB_OFFICE", false);
-}
-
 $stories = array(
   "DEFAULT" => "chapter-one",
   "chapter-one" => array(
@@ -93,7 +84,7 @@ else
 }
 
 // If the part isn't available, serve a 404
-if(time() < strtotime($stories[$cur_part]["RELEASE"]) && !DEBUG && !DB_OFFICE)
+if(time() < strtotime($stories[$cur_part]["RELEASE"]) && !DEBUG)
 {
   send_404();
 }
