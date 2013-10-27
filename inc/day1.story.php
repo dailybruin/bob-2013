@@ -2,7 +2,12 @@
   <div class="headline">
     <span class="package-title">A Battle for Care</span>
     <h2>Global organizations seek local solutions</h2>
-    <div class="head-info"><span class="byline">By Sonali Kohli and Blaine Ohigashi</span> • <span class="date">October 21, 2013</span></div>  </div>
+    <div class="head-info"><span class="byline">By Sonali Kohli and Blaine Ohigashi</span> • <span class="date">October 21, 2013</span></div>  
+    <a class="otherstory next" href="/chapter-two/looking-for-light/">
+      <span class="kicker">Next</span>
+      <span class="shorttitle">Connecting health and human rights</span>
+    </a>
+	</div>
   
   <div class="subhead">
     <hr />
@@ -318,5 +323,11 @@
     </div>
   </div><!-- end div.row -->
 </article>
+
+<a class="otherstory next bottom" href="/chapter-two/looking-for-light/">
+  <span class="kicker">Next</span>
+  <span class="shorttitle">Connecting health and human rights</span>
+	<span class="lede">They are tucked into residential neighborhoods, protected by high walls and gates, or hidden off of side streets – in these buildings Malawian men and women are free to tease each other about their latest crush, to declare their goals and hopes for the future of lesbian, gay, bisexual and transgender rights.</span>
+</a>
 
 <div class="clear"></div>

@@ -3,7 +3,11 @@
     <span class="package-title">Looking for Light</span>
     <h2>Connecting health and human rights</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 22, 2013</span></div>
-    <a class="otherstory next" href="/chapter-two/turning-taboos-into-talking-points/">
+    <a class="otherstory prev" href="/">
+      <span class="kicker">Previous</span>
+      <span class="shorttitle">Global organizations seek local solutions</span>
+    </a>
+	  <a class="otherstory next" href="/chapter-two/turning-taboos-into-talking-points/">
       <span class="kicker">Next</span>
       <span class="shorttitle">Turning taboos into talking points</span>
     </a>
@@ -223,6 +227,13 @@
     </div>
   </div>      
 </article>
+
+<a class="otherstory prev bottom" href="/">
+  <span class="kicker">Previous</span>
+  <span class="shorttitle">Global organizations seek local solutions</span>
+	<span class="lede">He lifted his shirt, revealing a stomach that was two different colors. Black spots covered a dark brown abdomen. Most of the itchy marks were concentrated there, but others speckled his arms and face.</span>
+</a>
+
 
 <a class="otherstory bottom next" href="/chapter-two/turning-taboos-into-talking-points/">
   <span class="kicker">Next</span>

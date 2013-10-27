@@ -3,6 +3,11 @@
     <span class="package-title">Looking for Light</span>
     <h2>Turning taboos into talking points</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 22, 2013</span></div>
+    <a class="otherstory next" href="/chapter-three/on-the-fringes/">
+      <span class="kicker">Next</span>
+      <span class="shorttitle">Carrying an unrelieved burden</span>
+    </a>
+		
     <a class="otherstory prev" href="/chapter-two/looking-for-light/">
       <span class="kicker">Previous</span>
       <span class="shorttitle">Connecting health and human rights</span>
@@ -94,6 +99,12 @@
     </div><!-- end div.large-6 -->
   </div><!-- end div.row -->
 </article>
+
+<a class="otherstory bottom next" href="/chapter-three/on-the-fringes/">
+  <span class="kicker">Next</span>
+  <span class="shorttitle">Carrying an unrelieved burden</span>
+  <span class="lede">The couple sat side by side in a Malawian coffee shop, both sets of arms crossed on top of the table, no parts of them touching.</span>
+</a>
 
 <a class="otherstory bottom prev" href="/chapter-two/looking-for-light/">
   <span class="kicker">Previous</span>

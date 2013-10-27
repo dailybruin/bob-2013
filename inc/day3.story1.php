@@ -3,6 +3,11 @@
     <span class="package-title">On the Fringes</span>
     <h2>Carrying an unrelieved burden</h2>
     <div class="head-info"><span class="byline">By Sonali Kohli</span> • <span class="date">October 23, 2013</span></div>
+		
+	  <a class="otherstory prev" href="/chapter-two/turning-taboos-into-talking-points/">
+      <span class="kicker">Previous</span>
+      <span class="shorttitle">Turning taboos into talking points</span>
+    </a>
     <a class="otherstory next" href="/chapter-three/lesbians-left-out-of-activism/">
       <span class="kicker">Next</span>
       <span class="shorttitle">Lesbians left out of activism</span>
@@ -131,6 +136,13 @@
     <div class="large-2 columns"> </div>
   </div>      
 </article>
+
+<a class="otherstory bottom prev" href="/chapter-two/turning-taboos-into-talking-points/">
+  <span class="kicker">Previous</span>
+  <span class="shorttitle">Turning taboos into talking points</span>
+  <span class="lede">In one lecture for the class, Boneh said she approached the topic of the LGBT community cautiously to avoid possible hostility from students.</span>
+</a>
+
 
 <a class="otherstory bottom next" href="/chapter-three/lesbians-left-out-of-activism/">
   <span class="kicker">Next</span>
