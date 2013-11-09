@@ -312,7 +312,7 @@
       <p>But other practitioners remain reluctant to provide targeted aid, or to publicize it.</p>
       <p>At trainings, Zulu reminds doctors and nurses of the oath they took to help all people, regardless of who they are. If they say they are promoting illegal activity by treating MSM, leaders at the trainings point out that doctors treat criminals who come to the office from prisons.        	</p>
       <p>That might be because men don’t know where to go for help or who to ask for, Zulu said.</p>
-      <p>Chipo’s routine when he comes to the clinic, for example, is different than that of other patients. Instead of waiting, he and his sister, who often accompanies him to the doctor, walk straight to the check-in desk and asks for Blessings, a clinician who has been trained in treating MSM.</p>
+      <p>Chipo’s routine when he comes to the clinic, for example, is different than that of other patients. Instead of waiting, he and his sister, who often accompanies him to the doctor, walk straight to the check-in desk and ask for Blessings, a clinician who has been trained in treating MSM.</p>
       <div class="flex-video">
         <iframe width="420" height="315" src="//www.youtube.com/embed/s8qHuE0ks4E?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
